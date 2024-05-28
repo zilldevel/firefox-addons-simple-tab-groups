@@ -177,7 +177,7 @@ function generateBackupFileName(isAutoBackup, byDayIndex = false) {
         type = isAutoBackup ? 'auto' : 'manual',
         dateOrDayIndex = (isAutoBackup && byDayIndex) ? `day-of-month-${day}` : `${year}-${month}-${day}`;
 
-    return `${type}-stg-backup-${dateOrDayIndex}@drive4ik.json`;
+    return `${type}-stg-backup-${dateOrDayIndex}@zilldevel.json`;
 }
 
 function _intToStr(i) {

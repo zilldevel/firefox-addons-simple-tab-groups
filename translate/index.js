@@ -1,9 +1,9 @@
 (async function() {
     'use strict';
 
-    const USER_NAME = 'Drive4ik',
-        REPOSITORY = 'simple-tab-groups',
-        MY_EMAIL = 'drive4ik+stg@protonmail.com',
+    const USER_NAME = 'zilldevel',
+        REPOSITORY = 'firefox-addons-simple-tab-groups',
+        MY_EMAIL = 'zilldevel+stg@protonmail.com',
         LOCALE_FILE_EXT = '.json',
         apiUrlPrefix = `https://api.github.com/repos/${USER_NAME}/${REPOSITORY}/`,
         contentUrlPrefix = `https://raw.githubusercontent.com/${USER_NAME}/${REPOSITORY}/`;

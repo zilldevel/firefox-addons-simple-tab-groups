@@ -1,10 +1,10 @@
 {
     "extensionName": {
-        "message": "Simple Tab Groups",
+        "message": "Simple Tab Groups zilldevel",
         "description": "Name of the extension."
     },
     "extensionDescription": {
-        "message": "Create, modify and quickly change tab groups",
+        "message": "This is an independent fork of STG by zilldevel with custom modifications",
         "description": "Description of the extension."
     },
     "openSettings": {

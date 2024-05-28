@@ -118,7 +118,7 @@ export const CONFLICTED_EXTENSIONS = Object.freeze([
 ]);
 
 export const EXTENSIONS_WHITE_LIST = Object.freeze({
-    'stg-plugin-create-new-group@drive4ik': {
+    'stg-plugin-create-new-group@zilldevel': {
         title: '[STG plugin] Create new group',
         url: 'https://addons.mozilla.org/firefox/addon/stg-plugin-create-new-group/',
         postActions: [],
@@ -127,7 +127,7 @@ export const EXTENSIONS_WHITE_LIST = Object.freeze({
             'load-last-group',
         ],
     },
-    'stg-plugin-load-custom-group@drive4ik': {
+    'stg-plugin-load-custom-group@zilldevel': {
         title: '[STG plugin] Load custom group',
         url: 'https://addons.mozilla.org/firefox/addon/stg-plugin-load-custom-group/',
         postActions: [
@@ -142,7 +142,7 @@ export const EXTENSIONS_WHITE_LIST = Object.freeze({
             'load-custom-group',
         ],
     },
-    'stg-plugin-manage-groups@drive4ik': {
+    'stg-plugin-manage-groups@zilldevel': {
         title: '[STG plugin] Open Manage groups',
         url: 'https://addons.mozilla.org/firefox/addon/stg-plugin-open-manage-groups/',
         postActions: [],
@@ -150,7 +150,7 @@ export const EXTENSIONS_WHITE_LIST = Object.freeze({
             'open-manage-groups',
         ],
     },
-    'stg-plugin-del-current-group@drive4ik': {
+    'stg-plugin-del-current-group@zilldevel': {
         title: '[STG plugin] Delete current group',
         url: 'https://addons.mozilla.org/firefox/addon/stg-plugin-del-current-group/',
         postActions: [],
@@ -158,7 +158,7 @@ export const EXTENSIONS_WHITE_LIST = Object.freeze({
             'delete-current-group',
         ],
     },
-    'stg-plugin-group-notes@drive4ik': {
+    'stg-plugin-group-notes@zilldevel': {
         title: '[STG plugin] Group notes',
         url: 'https://addons.mozilla.org/firefox/addon/stg-plugin-group-notes/',
         postActions: [
@@ -174,7 +174,7 @@ export const EXTENSIONS_WHITE_LIST = Object.freeze({
             'get-groups-list',
         ],
     },
-    'stg-plugin-create-new-tab@drive4ik': {
+    'stg-plugin-create-new-tab@zilldevel': {
         title: '[STG plugin] Create new tab',
         url: 'https://addons.mozilla.org/firefox/addon/stg-plugin-create-new-tab/',
         postActions: [
@@ -189,7 +189,7 @@ export const EXTENSIONS_WHITE_LIST = Object.freeze({
             'get-current-group',
         ],
     },
-    'stg-plugin-create-temp-tab@drive4ik': {
+    'stg-plugin-create-temp-tab@zilldevel': {
         title: '[STG plugin] Create new tab in temporary container',
         url: 'https://addons.mozilla.org/firefox/addon/stg-plugin-create-temp-tab/',
         postActions: [],

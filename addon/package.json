@@ -1,8 +1,8 @@
 {
-    "name": "simple-tab-groups",
-    "version": "1.0.0",
+    "name": "simple-tab-groups-zilldevel",
+    "version": "1.0.0.1",
     "description": "Create, modify and quickly change tab groups",
-    "author": "Drive4ik <drive4ik+stg@protonmail.com>",
+    "author": "zilldevel <zilldevel@proton.me>",
     "type": "module",
     "scripts": {
         "build": "webpack --mode production",
