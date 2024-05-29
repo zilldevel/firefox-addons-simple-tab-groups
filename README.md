@@ -6,7 +6,7 @@ I am mostly only concerned with my own changes and don't plan to support everyth
 
 All of my addons.mozilla.org (AMO) specific changes will be made in this branch which can be considered as the master branch for my AMO published version. Any issues specifically related to changes in my project should be filed against my project. Otherwise, the issue(s) should be retested against the original addon and filed there.
 
-My versioning standard will be: v<original-addon-version>-z<fork-sub-version> (e.g. "5.2-z0.1" => based off STG v5.2 code with my own internal version of "0.1").
+My versioning standard will be: v<original-addon-version>.<fork-sub-version> (e.g. "5.2.0.1" => based off STG v5.2 code with my own internal version of "0.1").
 
 Please support the original project / developer.
 
