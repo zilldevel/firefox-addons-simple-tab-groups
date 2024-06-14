@@ -2,8 +2,8 @@
 
 I have the source code in the vue and js files. With the command `npm run build` you create a build on pure js which is located in the dist folder.
 The `npm run build-zip` command will create 2 zip archives in the `dist-zip` folder.
-The file `simple-tab-groups@zilldevel-v5.0-dev.zip` has the source code - I upload it with each release.
-The file `simple-tab-groups@zilldevel-v5.0-prod.zip` has compiled code from the command `npm run build`, which actually gets into the resulting XPI file.
+The file `zilldevel-tabgroups@zilldevel-v5.0-dev.zip` has the source code - I upload it with each release.
+The file `zilldevel-tabgroups@zilldevel-v5.0-prod.zip` has compiled code from the command `npm run build`, which actually gets into the resulting XPI file.
 All these commands and their execution are described in the `package.json` file.
 How the build is going and with what settings you can also see in the file `webpack.config.mjs`
 

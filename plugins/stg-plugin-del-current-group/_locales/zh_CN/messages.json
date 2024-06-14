@@ -1,11 +1,11 @@
 {
     "extensionDescription": {
-        "message": "在容器中创建中创建新标签页，在 Simple Tab Groups v4.5.2+ 扩展中",
+        "message": "在容器中创建中创建新标签页，在 zilldevel-tabgroups v4.5.2+ 扩展中",
         "description": "Extension description"
     },
     "needInstallSTGExtension": {
-        "message": "需要安装 Simple Tab Groups 扩展\n点击此处打开 Simple Tab Groups 主页",
-        "description": "Need install Simple Tab Groups extention\nClick here to open Simple Tab Groups home page"
+        "message": "需要安装 zilldevel-tabgroups 扩展\n点击此处打开 zilldevel-tabgroups 主页",
+        "description": "Need install zilldevel-tabgroups extention\nClick here to open zilldevel-tabgroups home page"
     },
     "defaultBrowserActionTitle": {
         "message": "删除当前群组",

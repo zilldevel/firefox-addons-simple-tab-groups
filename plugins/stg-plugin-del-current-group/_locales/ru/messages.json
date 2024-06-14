@@ -1,11 +1,11 @@
 {
     "extensionDescription": {
-        "message": "Удалить текущую группу в расширении Simple Tab Groups",
+        "message": "Удалить текущую группу в расширении zilldevel-tabgroups",
         "description": "Extension description"
     },
     "needInstallSTGExtension": {
-        "message": "Необходимо установить расширение Simple Tab Groups\nНажмите здесь чтобы открыть домашнюю страницу Simple Tab Groups",
-        "description": "Need install Simple Tab Groups extention\nClick here to open Simple Tab Groups home page"
+        "message": "Необходимо установить расширение zilldevel-tabgroups\nНажмите здесь чтобы открыть домашнюю страницу zilldevel-tabgroups",
+        "description": "Need install zilldevel-tabgroups extention\nClick here to open zilldevel-tabgroups home page"
     },
     "defaultBrowserActionTitle": {
         "message": "Удалить текущую группу",

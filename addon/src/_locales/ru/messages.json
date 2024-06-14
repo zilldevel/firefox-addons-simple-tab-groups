@@ -105,7 +105,7 @@
     },
     "exportAddonSettingsTitle": {
         "message": "Резервное копирование",
-        "description": "Backup your Simple Tab Groups"
+        "description": "Backup your zilldevel-tabgroups"
     },
     "exportAddonSettingsDescription": {
         "message": "Экспортируйте свои группы вкладок в резервный файл для безопасного хранения, чтобы вы могли восстановить их в любое время.",
@@ -120,8 +120,8 @@
         "description": "Include tab thumbnails in backup (makes backup file size bigger)"
     },
     "importAddonSettingsTitle": {
-        "message": "Восстановление Simple Tab Groups",
-        "description": "Restore Simple Tab Groups"
+        "message": "Восстановление zilldevel-tabgroups",
+        "description": "Restore zilldevel-tabgroups"
     },
     "importAddonSettingsDescription": {
         "message": "Загрузите файл резервной копии для того чтобы восстановить вкладки и настройки.",
@@ -270,7 +270,7 @@
         "description": "Regular expressions"
     },
     "regexpForTabsHelp": {
-        "message": "Здесь вы можете указать регулярные выражения для URL адреса. При совпадении адреса вкладки хотя бы с одним регулярным выражением - вкладка автоматически будет перемещена в эту группу. Одно правило на строку.\nНапример:\ngithub\\.com/drive4ik/simple-tab-groups - захват всех вкладок этого плагина на github\n(facebook|twitter|youtube)\\.com - захват вкладок социальных сетей",
+        "message": "Здесь вы можете указать регулярные выражения для URL адреса. При совпадении адреса вкладки хотя бы с одним регулярным выражением - вкладка автоматически будет перемещена в эту группу. Одно правило на строку.\nНапример:\ngithub\\.com/zilldevel/firefox-addons-zilldevel-tabgroups - захват всех вкладок этого плагина на github\n(facebook|twitter|youtube)\\.com - захват вкладок социальных сетей",
         "description": "Regular exceptions helper"
     },
     "hotkeysTitle": {
@@ -504,8 +504,8 @@
         }
     },
     "clickHereToReloadAddon": {
-        "message": "Что-то произошло, нажмите здесь для перезагрузки расширения STG",
-        "description": "Something went wrong, click here to reload STG addon"
+        "message": "Что-то произошло, нажмите здесь для перезагрузки расширения ZTG",
+        "description": "Something went wrong, click here to reload ZTG addon"
     },
     "extendedTabSearch": {
         "message": "Расширенный поиск",
@@ -818,8 +818,8 @@
         "description": "Delete all addon data and settings before restoring backup"
     },
     "helpPageWelcomeTitle": {
-        "message": "Добро пожаловать в Simple Tab Groups",
-        "description": "Welcome to Simple Tab Groups"
+        "message": "Добро пожаловать в zilldevel-tabgroups",
+        "description": "Welcome to zilldevel-tabgroups"
     },
     "helpPageWelcomeDescription": {
         "message": "Пожалуйста, включите опцию \"Открыть предыдущие окна и вкладки\" в настройках браузера. <br>Это необходимо для поддержания связи между группой и вкладкой, иначе вкладки с прошлой сессии не будут открываться при запуске браузера и будут потеряны из дополнения - аддон перестанет правильно работать.",
@@ -850,7 +850,7 @@
         "description": "logging was auto-enabled due to an error in addon"
     },
     "loggingDescription": {
-        "message": "Пожалуйста, включите этот флажок, только если вам нужно записать ошибку и отправить мне логи. Включение этого флажка приведет к заметному замедлению аддона, так как все действия аддона логируются. При воспроизведении ошибки отключите этот флажок, и аддон предложит сохранить файл журнала логов. Эта опция может быть включена сама по себе, если происходит ошибка в аддоне. Вам необходимо отключить флажок DEBUG и сохранить файл журнала.<br>\nПожалуйста, пришлите мне этот файл по электронной почте: <a href=\"mailto:drive4ik+stg@protonmail.com\">drive4ik+stg@protonmail.com</a><br>\n<span class=\"has-text-danger\">Внимание! В этом лог-файле нет личных данных, паролей, закладок и т.д.!</span><br>\nЭто необходимо, чтобы иметь возможность воспроизвести проблему и попытаться ее исправить.<br>\nС наилучшими пожеланиями",
+        "message": "Пожалуйста, включите этот флажок, только если вам нужно записать ошибку и отправить мне логи. Включение этого флажка приведет к заметному замедлению аддона, так как все действия аддона логируются. При воспроизведении ошибки отключите этот флажок, и аддон предложит сохранить файл журнала логов. Эта опция может быть включена сама по себе, если происходит ошибка в аддоне. Вам необходимо отключить флажок DEBUG и сохранить файл журнала.<br>\nПожалуйста, пришлите мне этот файл по электронной почте: <a href=\"mailto:zilldevel+tabgroupsaddon@proton.me\">zilldevel+tabgroupsaddon@proton.me</a><br>\n<span class=\"has-text-danger\">Внимание! В этом лог-файле нет личных данных, паролей, закладок и т.д.!</span><br>\nЭто необходимо, чтобы иметь возможность воспроизвести проблему и попытаться ее исправить.<br>\nС наилучшими пожеланиями",
         "description": "logging description"
     },
     "archiveGroup": {
@@ -1064,12 +1064,12 @@
         "description": "Show archived groups"
     },
     "helpPageDbErrorReinstallTitle": {
-        "message": "Ошибка базы данных в Simple Tab Groups",
-        "description": "Database error in Simple Tab Groups"
+        "message": "Ошибка базы данных в zilldevel-tabgroups",
+        "description": "Database error in zilldevel-tabgroups"
     },
     "helpPageDbErrorReinstallDescription": {
-        "message": "К сожалению, произошла ошибка чтения данных аддоном STG из базы данных Firefox. На данный момент работа аддона остановлена. Для возобновления работы аддона выпролните следующие действия:",
-        "description": "Unfortunately, an error occurred while reading data from the STG addon from the Firefox database. At the moment, the addon is stopped. To resume the add-on, do the following:"
+        "message": "К сожалению, произошла ошибка чтения данных аддоном ZTG из базы данных Firefox. На данный момент работа аддона остановлена. Для возобновления работы аддона выпролните следующие действия:",
+        "description": "Unfortunately, an error occurred while reading data from the ZTG addon from the Firefox database. At the moment, the addon is stopped. To resume the add-on, do the following:"
     },
     "helpPageDbErrorReinstallDescription2": {
         "message": "Перезапустите браузер Firefox (для Linux и Mac OS с завершением процесса)",
@@ -1080,20 +1080,20 @@
         "description": "If you see this window again, try reinstalling the addon:"
     },
     "helpPageDbErrorReinstallDescription4": {
-        "message": "Удалите аддон STG",
-        "description": "Remove STG Addon"
+        "message": "Удалите аддон ZTG",
+        "description": "Remove ZTG Addon"
     },
     "helpPageDbErrorReinstallDescription5": {
         "message": "Перезапустите браузер Firefox",
         "description": "Restart Firefox Browser"
     },
     "helpPageDbErrorReinstallDescription6": {
-        "message": "Установите аддон STG",
-        "description": "Install STG Addon"
+        "message": "Установите аддон ZTG",
+        "description": "Install ZTG Addon"
     },
     "helpPageDbErrorReinstallDescription7": {
-        "message": "Восстановите последний бекап данных аддона STG, который находится в папке загрузок \"STG-backups\"<br>Восстановить бэкап вы можете в настройках аддона",
-        "description": "Restore the latest STG addon data backup located in the Firefox downloads folder \"STG-backups\".<br>You can restore backup in addon settings"
+        "message": "Восстановите последний бекап данных аддона ZTG, который находится в папке загрузок \"ZTG-backups\"<br>Восстановить бэкап вы можете в настройках аддона",
+        "description": "Restore the latest ZTG addon data backup located in the Firefox downloads folder \"ZTG-backups\".<br>You can restore backup in addon settings"
     },
     "helpPageDbErrorReinstallOpenFFDownloadsFolder": {
         "message": "Открыть папку загрузок Firefox",
@@ -1112,7 +1112,7 @@
         "description": "Backup number as day of month"
     },
     "autoBackupByDayIndexDescription": {
-        "message": "Помогает избавиться от большого количества файлов бекапа в папке загрузок. Файл бекапа будет иметь вид: \"auto-stg-backup-day-of-month-22@drive4ik.json\"",
+        "message": "Помогает избавиться от большого количества файлов бекапа в папке загрузок. Файл бекапа будет иметь вид: \"auto-ztg-backup-day-of-month-22@zilldevel.json\"",
         "description": "Backup by day description"
     },
     "clickHereForInfo": {
@@ -1128,16 +1128,16 @@
         "description": "Disabled text"
     },
     "helpPageExtensionsThatConflictWithStgTitle": {
-        "message": "Расширения конфликтующие с STG",
-        "description": "Extensions that conflict with STG"
+        "message": "Расширения конфликтующие с ZTG",
+        "description": "Extensions that conflict with ZTG"
     },
     "helpPageExtensionsThatConflictWithStgDesc1": {
-        "message": "Simple Tab Groups конфликтует со следующими включенными расширениями:",
-        "description": "Simple Tab Groups addon conflicts with the following enabled extensions:"
+        "message": "zilldevel-tabgroups конфликтует со следующими включенными расширениями:",
+        "description": "zilldevel-tabgroups addon conflicts with the following enabled extensions:"
     },
     "helpPageExtensionsThatConflictWithStgDesc2": {
-        "message": "Во избежание потери вкладок или их расположения в окнах и группах, настоятельно рекомендуется выключить или удалить включенные расширения которые конфликтуют с аддоном Simple Tab Groups. Вы можете это сделать на странице настроек аддонов \"about:addons\" или нажав комбинацию клавиш <code>Ctrl+Shift+A</code>",
-        "description": "To avoid losing tabs or their location in windows and groups, it is strongly recommended to turn off or remove enabled extensions that conflict with the Simple Tab Groups addon. You can do this on the addons settings page about:addons or by pressing the key combination Ctrl+Shift+A"
+        "message": "Во избежание потери вкладок или их расположения в окнах и группах, настоятельно рекомендуется выключить или удалить включенные расширения которые конфликтуют с аддоном zilldevel-tabgroups. Вы можете это сделать на странице настроек аддонов \"about:addons\" или нажав комбинацию клавиш <code>Ctrl+Shift+A</code>",
+        "description": "To avoid losing tabs or their location in windows and groups, it is strongly recommended to turn off or remove enabled extensions that conflict with the zilldevel-tabgroups addon. You can do this on the addons settings page about:addons or by pressing the key combination Ctrl+Shift+A"
     },
     "ignoreConflictedExtIgnore": {
         "message": "Игнорировать это расширение",
@@ -1152,8 +1152,8 @@
         "description": "Extension is ignored"
     },
     "ignoreConflictedExtConfirm": {
-        "message": "Это расширение вмешивается в работу STG, что может привести к потере вкладок.\nИгнорировать его?",
-        "description": "This addon will interfere with the STG, which may cause you to lose tabs.\nStill ignore it?"
+        "message": "Это расширение вмешивается в работу ZTG, что может привести к потере вкладок.\nИгнорировать его?",
+        "description": "This addon will interfere with the ZTG, which may cause you to lose tabs.\nStill ignore it?"
     },
     "theme": {
         "message": "Тема",
@@ -1192,8 +1192,8 @@
         "description": "Copy URL"
     },
     "helpPageStgDebugTitle": {
-        "message": "Страница отладки STG",
-        "description": "STG debug page"
+        "message": "Страница отладки ZTG",
+        "description": "ZTG debug page"
     },
     "helpPageStgDebugAutoDebugMainTitle": {
         "message": "Произошла ошибка в аддоне",

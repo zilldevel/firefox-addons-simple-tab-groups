@@ -97,7 +97,7 @@
     },
     "exportAddonSettingsTitle": {
         "message": "당신의 심플 탭 그룹을 백업",
-        "description": "Backup your Simple Tab Groups"
+        "description": "Backup your zilldevel-tabgroups"
     },
     "exportAddonSettingsDescription": {
         "message": "필요한 경우 나중에 복원할 수 있도록 탭 그룹을 백업 파일로 내보내 안전하게 보관하십시오.",
@@ -113,7 +113,7 @@
     },
     "importAddonSettingsTitle": {
         "message": "심플 탭 그룹 복원",
-        "description": "Restore Simple Tab Groups"
+        "description": "Restore zilldevel-tabgroups"
     },
     "importAddonSettingsDescription": {
         "message": "복원하려는 탭 그룹이 포함된 백업 파일을 로드합니다.",
@@ -254,7 +254,7 @@
         "description": "Catch and move tabs with containers to this group"
     },
     "regexpForTabsHelp": {
-        "message": "여기에 웹 주소에 대한 정규식을 삽입하십시오. 일치하는 탭은 자동으로 이 그룹으로 이동됩니다.\n규칙당 한 줄을 사용합니다. 원하는 만큼 사용할 수 있습니다.\n예:\ngithub\\.com/drive4ik/simple-tab-groups - 애드온 저장소의 모든 페이지를 캐치\nbugzilla\\.mozilla\\.org - Firefox 버그 보고서를 캐치\n(facebook|twitter|youtube)\\.com - 모든 소셜 페이지",
+        "message": "여기에 웹 주소에 대한 정규식을 삽입하십시오. 일치하는 탭은 자동으로 이 그룹으로 이동됩니다.\n규칙당 한 줄을 사용합니다. 원하는 만큼 사용할 수 있습니다.\n예:\ngithub\\.com/zilldevel/firefox-addons-zilldevel-tabgroups - 애드온 저장소의 모든 페이지를 캐치\nbugzilla\\.mozilla\\.org - Firefox 버그 보고서를 캐치\n(facebook|twitter|youtube)\\.com - 모든 소셜 페이지",
         "description": "Regular exceptions helper"
     },
     "hotkeysTitle": {
@@ -469,7 +469,7 @@
     },
     "clickHereToReloadAddon": {
         "message": "문제가 발생했습니다. 여기를 클릭하며 심플 탭 그룹 애드온을 새로고침 하세요.",
-        "description": "Something went wrong, click here to reload STG addon"
+        "description": "Something went wrong, click here to reload ZTG addon"
     },
     "extendedTabSearch": {
         "message": "확장 검색",
@@ -783,7 +783,7 @@
     },
     "helpPageWelcomeTitle": {
         "message": "심플 탭 그룹 이용을 환영합니다",
-        "description": "Welcome to Simple Tab Groups"
+        "description": "Welcome to zilldevel-tabgroups"
     },
     "helpPageWelcomeDescription": {
         "message": "브라우저 설정에서 \"이전 세션 복원\"을 활성화하십시오.<br>이는 그룹과 탭 간의 통신을 유지하는 데 필요합니다. 그렇지 않으면 <br>브라우저가 시작될 때 탭이 열리지 않고 확장 프로그램에서 손실됩니다. > 확장 프로그램이 작동을 멈춥니다.",
@@ -806,7 +806,7 @@
         "description": "logging was auto-enabled due to an error in addon"
     },
     "loggingDescription": {
-        "message": "버그를 기록하고 로그를 보내야 하는 경우에만 이 확인란을 활성화하십시오. 이 확인란을 활성화하면 모든 추가 작업이 기록되므로 추가 작업의 속도가 눈에 띄게 느려집니다. 오류를 재현할 때 이 확인란을 해제하면 로그 파일을 저장할 수 있습니다. 오류가 발생할 경우 이 옵션을 단독으로 실행할 수 있습니다. DEBUG 확인란을 사용하지 않도록 설정하고 로그 파일을 저장해야 합니다.이 로그 파일을 제게 이메일로 보내 주십시오: <a href=\"mailto:drive4ik+stg@protonmail.com>drive4ik+stg@protonmail.com<br> <span class=\"has-text-class\">관심! 이 로그 파일에는 개인 데이터, 암호, 북마크 등이 없습니다!이것은 문제를 재현하고 고치려고 노력하는 것이 필요합니다.[br] 안부 전합니다.",
+        "message": "버그를 기록하고 로그를 보내야 하는 경우에만 이 확인란을 활성화하십시오. 이 확인란을 활성화하면 모든 추가 작업이 기록되므로 추가 작업의 속도가 눈에 띄게 느려집니다. 오류를 재현할 때 이 확인란을 해제하면 로그 파일을 저장할 수 있습니다. 오류가 발생할 경우 이 옵션을 단독으로 실행할 수 있습니다. DEBUG 확인란을 사용하지 않도록 설정하고 로그 파일을 저장해야 합니다.이 로그 파일을 제게 이메일로 보내 주십시오: <a href=\"mailto:zilldevel+tabgroupsaddon@proton.me>zilldevel+tabgroupsaddon@proton.me<br> <span class=\"has-text-class\">관심! 이 로그 파일에는 개인 데이터, 암호, 북마크 등이 없습니다!이것은 문제를 재현하고 고치려고 노력하는 것이 필요합니다.[br] 안부 전합니다.",
         "description": "logging description"
     },
     "archiveGroup": {
@@ -948,12 +948,12 @@
         "description": "Show archived groups"
     },
     "helpPageDbErrorReinstallTitle": {
-        "message": "Simple Tab Groups의 데이터베이스 에러",
-        "description": "Database error in Simple Tab Groups"
+        "message": "zilldevel-tabgroups의 데이터베이스 에러",
+        "description": "Database error in zilldevel-tabgroups"
     },
     "helpPageDbErrorReinstallDescription": {
-        "message": "안타깝게도 Firefox 데이터베이스에서 Simple Tab Groups 확장 프로그램의 데이터를 읽는 동안 오류가 발생했습니다. 현재 확장 프로그램이 중지되었습니다. 추가 기능을 재개하려면 다음을 수행하십시오.",
-        "description": "Unfortunately, an error occurred while reading data from the STG addon from the Firefox database. At the moment, the addon is stopped. To resume the add-on, do the following:"
+        "message": "안타깝게도 Firefox 데이터베이스에서 zilldevel-tabgroups 확장 프로그램의 데이터를 읽는 동안 오류가 발생했습니다. 현재 확장 프로그램이 중지되었습니다. 추가 기능을 재개하려면 다음을 수행하십시오.",
+        "description": "Unfortunately, an error occurred while reading data from the ZTG addon from the Firefox database. At the moment, the addon is stopped. To resume the add-on, do the following:"
     },
     "helpPageDbErrorReinstallDescription2": {
         "message": "Firefox 브라우저 다시 시작(프로세스 종료가 있는 Linux 및 Mac OS 전용)",
@@ -964,20 +964,20 @@
         "description": "If you see this window again, try reinstalling the addon:"
     },
     "helpPageDbErrorReinstallDescription4": {
-        "message": "Simple Tab Groups 확장 프로그램 삭제",
-        "description": "Remove STG Addon"
+        "message": "zilldevel-tabgroups 확장 프로그램 삭제",
+        "description": "Remove ZTG Addon"
     },
     "helpPageDbErrorReinstallDescription5": {
         "message": "Firefox 브라우저 다시 시작",
         "description": "Restart Firefox Browser"
     },
     "helpPageDbErrorReinstallDescription6": {
-        "message": "Simple Tab Groups 확장 프로그램 설치",
-        "description": "Install STG Addon"
+        "message": "zilldevel-tabgroups 확장 프로그램 설치",
+        "description": "Install ZTG Addon"
     },
     "helpPageDbErrorReinstallDescription7": {
-        "message": "Firefox 다운로드 폴더 \"STG-backups\"에 있는 최신 Simple Tab Groups 확장 프로그램 데이터 백업을 복원합니다.<br>확장 프로그램 설정에서 백업을 복원할 수 있습니다.",
-        "description": "Restore the latest STG addon data backup located in the Firefox downloads folder \"STG-backups\".<br>You can restore backup in addon settings"
+        "message": "Firefox 다운로드 폴더 \"ZTG-backups\"에 있는 최신 zilldevel-tabgroups 확장 프로그램 데이터 백업을 복원합니다.<br>확장 프로그램 설정에서 백업을 복원할 수 있습니다.",
+        "description": "Restore the latest ZTG addon data backup located in the Firefox downloads folder \"ZTG-backups\".<br>You can restore backup in addon settings"
     },
     "helpPageDbErrorReinstallOpenFFDownloadsFolder": {
         "message": "Firefox 다운로드 폴더 열기",
@@ -996,7 +996,7 @@
         "description": "Backup number as day of month"
     },
     "autoBackupByDayIndexDescription": {
-        "message": "다운로드 폴더에서 많은 수의 백업 파일을 제거하는 데 도움이 됩니다. 백업 파일은 \"auto-stg-backup-day-of-month-22@drive4ik.json\"과 같이 표시됩니다.",
+        "message": "다운로드 폴더에서 많은 수의 백업 파일을 제거하는 데 도움이 됩니다. 백업 파일은 \"auto-ztg-backup-day-of-month-22@zilldevel.json\"과 같이 표시됩니다.",
         "description": "Backup by day description"
     },
     "clickHereForInfo": {
@@ -1012,16 +1012,16 @@
         "description": "Disabled text"
     },
     "helpPageExtensionsThatConflictWithStgTitle": {
-        "message": "Simple Tab Groups와 충돌하는 확장 프로그램",
-        "description": "Extensions that conflict with STG"
+        "message": "zilldevel-tabgroups와 충돌하는 확장 프로그램",
+        "description": "Extensions that conflict with ZTG"
     },
     "helpPageExtensionsThatConflictWithStgDesc1": {
-        "message": "Simple Tab Groups 확장 프로그램이 활성화된 다음 확장 프로그램과 충돌합니다:",
-        "description": "Simple Tab Groups addon conflicts with the following enabled extensions:"
+        "message": "zilldevel-tabgroups 확장 프로그램이 활성화된 다음 확장 프로그램과 충돌합니다:",
+        "description": "zilldevel-tabgroups addon conflicts with the following enabled extensions:"
     },
     "helpPageExtensionsThatConflictWithStgDesc2": {
-        "message": "창 및 그룹에서 탭이나 탭의 위치를 ​​잃지 않으려면 Simple Tab Groups 확장 프로그램과 충돌하는 활성화된 확장 프로그램을 끄거나 제거하는 것이 좋습니다. 확장 프로그램 설정 페이지 \"about:addons\"에서 또는 키 조합 <code>Ctrl+Shift+A</code>를 눌러 이 작업을 수행할 수 있습니다.",
-        "description": "To avoid losing tabs or their location in windows and groups, it is strongly recommended to turn off or remove enabled extensions that conflict with the Simple Tab Groups addon. You can do this on the addons settings page about:addons or by pressing the key combination Ctrl+Shift+A"
+        "message": "창 및 그룹에서 탭이나 탭의 위치를 ​​잃지 않으려면 zilldevel-tabgroups 확장 프로그램과 충돌하는 활성화된 확장 프로그램을 끄거나 제거하는 것이 좋습니다. 확장 프로그램 설정 페이지 \"about:addons\"에서 또는 키 조합 <code>Ctrl+Shift+A</code>를 눌러 이 작업을 수행할 수 있습니다.",
+        "description": "To avoid losing tabs or their location in windows and groups, it is strongly recommended to turn off or remove enabled extensions that conflict with the zilldevel-tabgroups addon. You can do this on the addons settings page about:addons or by pressing the key combination Ctrl+Shift+A"
     },
     "theme": {
         "message": "테마",

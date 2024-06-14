@@ -4,7 +4,7 @@
         "description": "Description of the extension."
     },
     "openSettings": {
-        "message": "STG 設定",
+        "message": "ZTG 設定",
         "description": "Settings context button title"
     },
     "manageGroupsTitle": {
@@ -96,8 +96,8 @@
         "description": "Show confirmation dialog before archiving the group"
     },
     "exportAddonSettingsTitle": {
-        "message": "Simple Tab Groups データのバックアップ",
-        "description": "Backup your Simple Tab Groups"
+        "message": "zilldevel-tabgroups データのバックアップ",
+        "description": "Backup your zilldevel-tabgroups"
     },
     "exportAddonSettingsDescription": {
         "message": "タブグループをバックアップファイルにエクスポートする。もしものときにバックアップからタブグループを復元することができます。",
@@ -112,8 +112,8 @@
         "description": "Include tab thumbnails in backup (makes backup file size bigger)"
     },
     "importAddonSettingsTitle": {
-        "message": "Simple Tab Groups の復元",
-        "description": "Restore Simple Tab Groups"
+        "message": "zilldevel-tabgroups の復元",
+        "description": "Restore zilldevel-tabgroups"
     },
     "importAddonSettingsDescription": {
         "message": "復元するバックアップファイルを読み込んでください",
@@ -262,7 +262,7 @@
         "description": "Regular expressions"
     },
     "regexpForTabsHelp": {
-        "message": "ここにウェブアドレスを正規表現で記入してください。正規表現にマッチするタブを自動的にこのグループ内に移動 (キャッチ) します。\n一行に一個のルールを記載してください。記載できるルールの数に制限はありません。\n例：\ngithub\\.com/drive4ik/simple-tab-groups　すべてのアドオンリポジトリのページをキャッチします。\nbugzilla\\.mozilla\\.org　Firefoxのバグレポートをキャッチします。\n(facebook|twitter|youtube)\\.com　すべてのソーシャルページをキャッチします。",
+        "message": "ここにウェブアドレスを正規表現で記入してください。正規表現にマッチするタブを自動的にこのグループ内に移動 (キャッチ) します。\n一行に一個のルールを記載してください。記載できるルールの数に制限はありません。\n例：\ngithub\\.com/zilldevel/firefox-addons-zilldevel-tabgroups　すべてのアドオンリポジトリのページをキャッチします。\nbugzilla\\.mozilla\\.org　Firefoxのバグレポートをキャッチします。\n(facebook|twitter|youtube)\\.com　すべてのソーシャルページをキャッチします。",
         "description": "Regular exceptions helper"
     },
     "hotkeysTitle": {
@@ -358,7 +358,7 @@
         "description": "Reload all tabs in current group"
     },
     "whatsWrongMessage": {
-        "message": "なにか問題が起きました...\n開発者にメールでエラーログをお送りくださいますようご協力をお願いします。(Simple Tab Groups の設定画面の一番下にログを出力するためのボタンがあります)",
+        "message": "なにか問題が起きました...\n開発者にメールでエラーログをお送りくださいますようご協力をお願いします。(zilldevel-tabgroups の設定画面の一番下にログを出力するためのボタンがあります)",
         "description": "Whats wrong...\nPlease contact with developer by support email with last error logs (exist button at bottom of options)"
     },
     "saveErrorLogsIntoFile": {
@@ -468,8 +468,8 @@
         }
     },
     "clickHereToReloadAddon": {
-        "message": "なんらかの問題が発生しました。ここをクリックして STG アドオンを再起動してください",
-        "description": "Something went wrong, click here to reload STG addon"
+        "message": "なんらかの問題が発生しました。ここをクリックして ZTG アドオンを再起動してください",
+        "description": "Something went wrong, click here to reload ZTG addon"
     },
     "extendedTabSearch": {
         "message": "高度な検索",
@@ -782,8 +782,8 @@
         "description": "Delete all addon data and settings before restoring backup"
     },
     "helpPageWelcomeTitle": {
-        "message": "Simple Tab Groups へようこそ",
-        "description": "Welcome to Simple Tab Groups"
+        "message": "zilldevel-tabgroups へようこそ",
+        "description": "Welcome to zilldevel-tabgroups"
     },
     "helpPageWelcomeDescription": {
         "message": "ブラウザーの設定で [以前のセッションを復元する] を有効にしてください。<br>これはグループとタブの間の通信を管理するために必要です。<br>これが無効になっている場合、ブラウザーの起動時にタブが開かず、アドオンからタブの情報が失われます。<br>つまり、アドオンの動作が停止するでしょう。",
@@ -806,7 +806,7 @@
         "description": "logging was auto-enabled due to an error in addon"
     },
     "loggingDescription": {
-        "message": "このチェックボックスは、バグの記録とログを作者へ送信する必要がある場合のみ有効にしてください。このチェックボックスにチェックを入れると、アドオンのすべてのアクションが記録されるため、アドオンの動作が遅くなります。エラーを再現できる場合は、このチェックボックスのチェックを外してください。アドオンのログファイルが保存できます。このオプションは、エラーが発生したときにも有効になります。その場合は、ご自身で DEBUG のチェックボックスを無効にしてログファイルを保存する必要があります。<br>このログファイルをメールで作者に送信してください: <a href=\"mailto:drive4ik+stg@protonmail.com\">drive4ik+stg@protonmail.com</a><br> <span class=\"has-text-danger\">注意！ このログファイルには、パスワードやブックマークなどの個人データは含まれていません。</span><br> これは、問題を再現して解決するために必要です。<br> ご協力に感謝します。",
+        "message": "このチェックボックスは、バグの記録とログを作者へ送信する必要がある場合のみ有効にしてください。このチェックボックスにチェックを入れると、アドオンのすべてのアクションが記録されるため、アドオンの動作が遅くなります。エラーを再現できる場合は、このチェックボックスのチェックを外してください。アドオンのログファイルが保存できます。このオプションは、エラーが発生したときにも有効になります。その場合は、ご自身で DEBUG のチェックボックスを無効にしてログファイルを保存する必要があります。<br>このログファイルをメールで作者に送信してください: <a href=\"mailto:zilldevel+tabgroupsaddon@proton.me\">zilldevel+tabgroupsaddon@proton.me</a><br> <span class=\"has-text-danger\">注意！ このログファイルには、パスワードやブックマークなどの個人データは含まれていません。</span><br> これは、問題を再現して解決するために必要です。<br> ご協力に感謝します。",
         "description": "logging description"
     },
     "archiveGroup": {
@@ -1006,12 +1006,12 @@
         "description": "Show archived groups"
     },
     "helpPageDbErrorReinstallTitle": {
-        "message": "Simple Tab Groups のデータベースエラー",
-        "description": "Database error in Simple Tab Groups"
+        "message": "zilldevel-tabgroups のデータベースエラー",
+        "description": "Database error in zilldevel-tabgroups"
     },
     "helpPageDbErrorReinstallDescription": {
-        "message": "残念ながら Firefox データベースの STG アドオンからデータを読み込み中にエラーが発生しました。この間、アドオンは停止しています。アドオンを再開するため、次の操作を行ってください:",
-        "description": "Unfortunately, an error occurred while reading data from the STG addon from the Firefox database. At the moment, the addon is stopped. To resume the add-on, do the following:"
+        "message": "残念ながら Firefox データベースの ZTG アドオンからデータを読み込み中にエラーが発生しました。この間、アドオンは停止しています。アドオンを再開するため、次の操作を行ってください:",
+        "description": "Unfortunately, an error occurred while reading data from the ZTG addon from the Firefox database. At the moment, the addon is stopped. To resume the add-on, do the following:"
     },
     "helpPageDbErrorReinstallDescription2": {
         "message": "Firefox ブラウザーを再起動してください (Linux および MacOS ではプロセスを終了してください)",
@@ -1022,20 +1022,20 @@
         "description": "If you see this window again, try reinstalling the addon:"
     },
     "helpPageDbErrorReinstallDescription4": {
-        "message": "STG アドオンを削除します",
-        "description": "Remove STG Addon"
+        "message": "ZTG アドオンを削除します",
+        "description": "Remove ZTG Addon"
     },
     "helpPageDbErrorReinstallDescription5": {
         "message": "Firefox ブラウザーを再起動します",
         "description": "Restart Firefox Browser"
     },
     "helpPageDbErrorReinstallDescription6": {
-        "message": "STG アドオンをインストールします",
-        "description": "Install STG Addon"
+        "message": "ZTG アドオンをインストールします",
+        "description": "Install ZTG Addon"
     },
     "helpPageDbErrorReinstallDescription7": {
-        "message": "最新の STG アドオンのデータのバックアップを Firefox のダウンロードフォルダー \"STG-backups\" から復元してください。<br>アドオンの設定でバックアップから復元できます。",
-        "description": "Restore the latest STG addon data backup located in the Firefox downloads folder \"STG-backups\".<br>You can restore backup in addon settings"
+        "message": "最新の ZTG アドオンのデータのバックアップを Firefox のダウンロードフォルダー \"ZTG-backups\" から復元してください。<br>アドオンの設定でバックアップから復元できます。",
+        "description": "Restore the latest ZTG addon data backup located in the Firefox downloads folder \"ZTG-backups\".<br>You can restore backup in addon settings"
     },
     "helpPageDbErrorReinstallOpenFFDownloadsFolder": {
         "message": "Firefox のダウンロードフォルダーを開きます",
@@ -1054,7 +1054,7 @@
         "description": "Backup number as day of month"
     },
     "autoBackupByDayIndexDescription": {
-        "message": "ダウンロードフォルダー内にある数多くのバックアップファイルを整理するのに役立ちます。バックアップファイル名は次のようになります: \"auto-stg-backup-day-of-month-22@drive4ik.json\"",
+        "message": "ダウンロードフォルダー内にある数多くのバックアップファイルを整理するのに役立ちます。バックアップファイル名は次のようになります: \"auto-ztg-backup-day-of-month-22@zilldevel.json\"",
         "description": "Backup by day description"
     }
 }

@@ -1,13 +1,21 @@
-<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
-    <g fill="context-fill #4e4f50" fill-opacity="context-fill-opacity">
-        <rect height="32" width="32" />
-        <rect height="32" width="32" x="48" />
-        <rect height="32" width="32" x="96" y="48" />
-        <rect height="32" width="32" y="48" />
-        <rect height="32" width="32" x="48" y="48" />
-        <rect height="32" width="32" x="96" />
-        <rect height="32" width="32" y="96" />
-        <rect height="32" width="32" x="48" y="96" />
-        <rect height="32" width="32" x="96" y="96" />
-    </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="128"
+   height="128"
+   viewBox="0 0 128 128"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="g1">
+    <path
+       style="fill:#020202;stroke:none"
+       d="M 0.18783265,0.21484375 V 27.734844 H 27.707833 V 0.21484375 H 0.18783265 m 33.60000035,0 V 27.734844 h 27.52 V 0.21484375 h -27.52 m 33.28,0 V 20.694844 l 0.51309,6.711113 7.16691,0.328887 h 19.84 V 0.21484375 h -27.52 m 33.599997,0 V 27.734844 h 27.52 V 0.21484375 h -27.52 M 67.067833,32.854844 v 27.2 h 27.52 v -27.2 h -27.52 m -33.28,35.52 v 27.2 h 27.52 v -27.2 h -27.52 M 0.18783265,100.69484 v 27.52 H 27.707833 v -27.52 H 0.18783265 m 33.60000035,0 v 27.52 h 19.84 c 1.6889,0 5.8024,0.75183 7.16691,-0.32889 1.0984,-0.86995 0.51309,-4.17111 0.51309,-5.43111 v -15.68 c 0,-1.3141 0.66396,-5.19522 -0.74173,-5.88691 -1.91611,-0.942852 -5.77763,-0.19309 -7.89827,-0.19309 h -18.88 m 33.28,27.52 h 27.52 v -27.52 h -19.84 l -7.16691,0.32889 -0.51309,6.71111 v 20.48 m 33.599997,-27.52 v 27.52 h 27.52 v -27.52 z"
+       id="path1" />
+  </g>
 </svg>

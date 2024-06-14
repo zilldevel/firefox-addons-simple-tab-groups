@@ -3,7 +3,7 @@
 
     "browser_specific_settings": {
         "gecko": {
-            "id": "stg-plugin-create-new-group@zilldevel",
+            "id": "ztg-plugin-create-new-group@zilldevel",
             "strict_min_version": "112.0"
         }
     },
@@ -14,7 +14,7 @@
     "description": "__MSG_extensionDescription__",
     "version": "2.1",
     "author": "zilldevel",
-    "homepage_url": "https://github.com/zilldevel/firefox-addons-simple-tab-groups",
+    "homepage_url": "https://github.com/zilldevel/firefox-addons-zilldevel-tabgroups",
 
     "icons": {
         "96": "icons/icon.svg"

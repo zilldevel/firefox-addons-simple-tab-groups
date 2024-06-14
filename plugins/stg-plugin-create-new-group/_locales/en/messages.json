@@ -1,15 +1,15 @@
 {
     "extensionName": {
-        "message": "[STG plugin] Create new group",
+        "message": "[ZTG plugin] Create new group",
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Create new group in extention Simple Tab Groups",
+        "message": "Create new group in extention zilldevel-tabgroups",
         "description": "Extension description"
     },
     "needInstallSTGExtension": {
-        "message": "Need install Simple Tab Groups extention\nClick here to open home page Simple Tab Groups",
-        "description": "Need install Simple Tab Groups extention\nClick here to open home page Simple Tab Groups"
+        "message": "Need install zilldevel-tabgroups extention\nClick here to open home page zilldevel-tabgroups",
+        "description": "Need install zilldevel-tabgroups extention\nClick here to open home page zilldevel-tabgroups"
     },
     "createNewGroupTitle": {
         "message": "Create new group",

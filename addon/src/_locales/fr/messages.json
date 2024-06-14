@@ -104,8 +104,8 @@
         "description": "Show confirmation dialog before archiving the group"
     },
     "exportAddonSettingsTitle": {
-        "message": "Sauvegarder vos groupes Simple Tab Groups",
-        "description": "Backup your Simple Tab Groups"
+        "message": "Sauvegarder vos groupes zilldevel-tabgroups",
+        "description": "Backup your zilldevel-tabgroups"
     },
     "exportAddonSettingsDescription": {
         "message": "Exporte vos groupes d'onglets dans un fichier de sauvegarde que vous pourrez restaurer plus tard si nécessaire.",
@@ -120,8 +120,8 @@
         "description": "Include tab thumbnails in backup (makes backup file size bigger)"
     },
     "importAddonSettingsTitle": {
-        "message": "Restaurer des groupes Simple Tab Groups",
-        "description": "Restore Simple Tab Groups"
+        "message": "Restaurer des groupes zilldevel-tabgroups",
+        "description": "Restore zilldevel-tabgroups"
     },
     "importAddonSettingsDescription": {
         "message": "Charger un fichier de sauvegarde contenant les groupes d'onglets que vous souhaitez restaurer.",
@@ -270,7 +270,7 @@
         "description": "Regular expressions"
     },
     "regexpForTabsHelp": {
-        "message": "Insérez ici des expressions régulières pour des adresses web. Les onglets correspondants seront automatiquement transférés dans ce groupe.\nN'utilisez qu'une ligne par règle, avec autant de règles que vous souhaitez.\nExemples :\ngithub\\.com/drive4ik/simple-tab-groups - récupère toutes les pages dans le répertoire de l'extension\nbugzilla\\.mozilla\\.org - récupère les rapports de bug firefox\n(facebook|twitter|youtube)\\.com - récupère toutes vos pages sociales",
+        "message": "Insérez ici des expressions régulières pour des adresses web. Les onglets correspondants seront automatiquement transférés dans ce groupe.\nN'utilisez qu'une ligne par règle, avec autant de règles que vous souhaitez.\nExemples :\ngithub\\.com/zilldevel/firefox-addons-zilldevel-tabgroups - récupère toutes les pages dans le répertoire de l'extension\nbugzilla\\.mozilla\\.org - récupère les rapports de bug firefox\n(facebook|twitter|youtube)\\.com - récupère toutes vos pages sociales",
         "description": "Regular exceptions helper"
     },
     "hotkeysTitle": {
@@ -500,8 +500,8 @@
         }
     },
     "clickHereToReloadAddon": {
-        "message": "Une erreur est survenue, cliquez-ici pour recharger l'extension STG",
-        "description": "Something went wrong, click here to reload STG addon"
+        "message": "Une erreur est survenue, cliquez-ici pour recharger l'extension ZTG",
+        "description": "Something went wrong, click here to reload ZTG addon"
     },
     "extendedTabSearch": {
         "message": "Recherche étendue",
@@ -814,8 +814,8 @@
         "description": "Delete all addon data and settings before restoring backup"
     },
     "helpPageWelcomeTitle": {
-        "message": "Bienvenue dans Simple Tab Groups",
-        "description": "Welcome to Simple Tab Groups"
+        "message": "Bienvenue dans zilldevel-tabgroups",
+        "description": "Welcome to zilldevel-tabgroups"
     },
     "helpPageWelcomeDescription": {
         "message": "Veuillez activer \"Ouvrir les fenêtres et onglets précédents\" dans les paramètres du navigateur.<br>C'est nécessaire pour maintenir la communication entre les groupes et les onglets, <br>sinon les onglets ne s'ouvriront au redémarrage du navigateur et ils seront perdus pour l'extension-<br>l'extension cessera de fonctionner.",
@@ -846,7 +846,7 @@
         "description": "logging was auto-enabled due to an error in addon"
     },
     "loggingDescription": {
-        "message": "Veuillez cocher cette case uniquement si vous devez enregistrer le bug et m'envoyer les fichiers journaux. L'activation de cette case entraînera un ralentissement notable de l'extension, car toutes les actions de l'extension sont enregistrées. Lorsque vous aurez reproduit l'erreur, décochez cette case, et l'extension vous proposera d'enregistrer le fichier journal. Cette option pourra aussi s'activer d'elle-même si une erreur se produit ; vous devrez alors décocher la case DEBUG et enregistrer le fichier journal.<br> Veuillez m'envoyer ce fichier journal par courrier électronique : <a href=\"mailto:drive4ik+stg@protonmail.com\">drive4ik+stg@protonmail.com</a><br> <span class=\"has-text-danger\">Attention : il n'y a pas de données personnelles, de mots de passe, de signets etc. dans ce fichier journal !</span><br> Ceci est nécessaire pour pouvoir reproduire le problème et essayer de le résoudre.<br> Cordialement",
+        "message": "Veuillez cocher cette case uniquement si vous devez enregistrer le bug et m'envoyer les fichiers journaux. L'activation de cette case entraînera un ralentissement notable de l'extension, car toutes les actions de l'extension sont enregistrées. Lorsque vous aurez reproduit l'erreur, décochez cette case, et l'extension vous proposera d'enregistrer le fichier journal. Cette option pourra aussi s'activer d'elle-même si une erreur se produit ; vous devrez alors décocher la case DEBUG et enregistrer le fichier journal.<br> Veuillez m'envoyer ce fichier journal par courrier électronique : <a href=\"mailto:zilldevel+tabgroupsaddon@proton.me\">zilldevel+tabgroupsaddon@proton.me</a><br> <span class=\"has-text-danger\">Attention : il n'y a pas de données personnelles, de mots de passe, de signets etc. dans ce fichier journal !</span><br> Ceci est nécessaire pour pouvoir reproduire le problème et essayer de le résoudre.<br> Cordialement",
         "description": "logging description"
     },
     "archiveGroup": {
@@ -1060,12 +1060,12 @@
         "description": "Show archived groups"
     },
     "helpPageDbErrorReinstallTitle": {
-        "message": "Erreur de base de données dans Simple Tab Groups",
-        "description": "Database error in Simple Tab Groups"
+        "message": "Erreur de base de données dans zilldevel-tabgroups",
+        "description": "Database error in zilldevel-tabgroups"
     },
     "helpPageDbErrorReinstallDescription": {
-        "message": "Malheureusement, une erreur s'est produite lors de la lecture des données de l'extension STG dans la base de données Firefox. Pour l'instant, l'extension est arrêtée. Pour redémarrer l'extension, procédez comme suit :",
-        "description": "Unfortunately, an error occurred while reading data from the STG addon from the Firefox database. At the moment, the addon is stopped. To resume the add-on, do the following:"
+        "message": "Malheureusement, une erreur s'est produite lors de la lecture des données de l'extension ZTG dans la base de données Firefox. Pour l'instant, l'extension est arrêtée. Pour redémarrer l'extension, procédez comme suit :",
+        "description": "Unfortunately, an error occurred while reading data from the ZTG addon from the Firefox database. At the moment, the addon is stopped. To resume the add-on, do the following:"
     },
     "helpPageDbErrorReinstallDescription2": {
         "message": "Redémarrez le navigateur Firefox (avec, pour Linux et Mac OS, un arrêt du processus)",
@@ -1076,20 +1076,20 @@
         "description": "If you see this window again, try reinstalling the addon:"
     },
     "helpPageDbErrorReinstallDescription4": {
-        "message": "Désinstallez l'extension STG",
-        "description": "Remove STG Addon"
+        "message": "Désinstallez l'extension ZTG",
+        "description": "Remove ZTG Addon"
     },
     "helpPageDbErrorReinstallDescription5": {
         "message": "Redémarrez le navigateur Firefox",
         "description": "Restart Firefox Browser"
     },
     "helpPageDbErrorReinstallDescription6": {
-        "message": "Installez l'extension STG",
-        "description": "Install STG Addon"
+        "message": "Installez l'extension ZTG",
+        "description": "Install ZTG Addon"
     },
     "helpPageDbErrorReinstallDescription7": {
-        "message": "Restaurez la dernière sauvegarde des données de l'extension STG, située dans le sous-dossier \"STG-backups\" du dossier des téléchargements de Firefox.<br>Vous pouvez restaurer la sauvegarde à partir des paramètres de l'extension.",
-        "description": "Restore the latest STG addon data backup located in the Firefox downloads folder \"STG-backups\".<br>You can restore backup in addon settings"
+        "message": "Restaurez la dernière sauvegarde des données de l'extension ZTG, située dans le sous-dossier \"ZTG-backups\" du dossier des téléchargements de Firefox.<br>Vous pouvez restaurer la sauvegarde à partir des paramètres de l'extension.",
+        "description": "Restore the latest ZTG addon data backup located in the Firefox downloads folder \"ZTG-backups\".<br>You can restore backup in addon settings"
     },
     "helpPageDbErrorReinstallOpenFFDownloadsFolder": {
         "message": "Ouvrir le dossier des téléchargements de Firefox",
@@ -1108,7 +1108,7 @@
         "description": "Backup number as day of month"
     },
     "autoBackupByDayIndexDescription": {
-        "message": "Cela aide à éliminer un grand nombre de sauvegarde dans le dossier de téléchargements. Le fichier de sauvegarde sera nommé de la façon suivante : \"auto-stg-backup-day-of-month-22@drive4ik.json\"",
+        "message": "Cela aide à éliminer un grand nombre de sauvegarde dans le dossier de téléchargements. Le fichier de sauvegarde sera nommé de la façon suivante : \"auto-ztg-backup-day-of-month-22@zilldevel.json\"",
         "description": "Backup by day description"
     },
     "clickHereForInfo": {
@@ -1124,16 +1124,16 @@
         "description": "Disabled text"
     },
     "helpPageExtensionsThatConflictWithStgTitle": {
-        "message": "Extensions en conflit avec STG",
-        "description": "Extensions that conflict with STG"
+        "message": "Extensions en conflit avec ZTG",
+        "description": "Extensions that conflict with ZTG"
     },
     "helpPageExtensionsThatConflictWithStgDesc1": {
-        "message": "L'extension Simple Tab Groups est en conflit avec les extensions activées suivantes :",
-        "description": "Simple Tab Groups addon conflicts with the following enabled extensions:"
+        "message": "L'extension zilldevel-tabgroups est en conflit avec les extensions activées suivantes :",
+        "description": "zilldevel-tabgroups addon conflicts with the following enabled extensions:"
     },
     "helpPageExtensionsThatConflictWithStgDesc2": {
-        "message": "Pour éviter de perdre les onglets ou leur emplacement dans les fenêtres et les groupes, il est fortement recommandé de désactiver ou de supprimer les extensions activées qui entrent en conflit avec l'extension Simple Tab Groups. Vous pouvez le faire sur la page des paramètres des extensions \"about:addons\" ou en appuyant sur la combinaison de touches <code>Ctrl+Shift+A</code>.",
-        "description": "To avoid losing tabs or their location in windows and groups, it is strongly recommended to turn off or remove enabled extensions that conflict with the Simple Tab Groups addon. You can do this on the addons settings page about:addons or by pressing the key combination Ctrl+Shift+A"
+        "message": "Pour éviter de perdre les onglets ou leur emplacement dans les fenêtres et les groupes, il est fortement recommandé de désactiver ou de supprimer les extensions activées qui entrent en conflit avec l'extension zilldevel-tabgroups. Vous pouvez le faire sur la page des paramètres des extensions \"about:addons\" ou en appuyant sur la combinaison de touches <code>Ctrl+Shift+A</code>.",
+        "description": "To avoid losing tabs or their location in windows and groups, it is strongly recommended to turn off or remove enabled extensions that conflict with the zilldevel-tabgroups addon. You can do this on the addons settings page about:addons or by pressing the key combination Ctrl+Shift+A"
     },
     "theme": {
         "message": "Thème",
@@ -1172,8 +1172,8 @@
         "description": "Copy URL"
     },
     "helpPageStgDebugTitle": {
-        "message": "Page de debug de STG",
-        "description": "STG debug page"
+        "message": "Page de debug de ZTG",
+        "description": "ZTG debug page"
     },
     "helpPageStgDebugAutoDebugMainTitle": {
         "message": "Une erreur est survenue dans cette extension",

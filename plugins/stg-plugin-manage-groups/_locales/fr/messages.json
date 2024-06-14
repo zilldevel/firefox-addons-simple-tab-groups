@@ -1,11 +1,11 @@
 {
     "extensionDescription": {
-        "message": "Ouvre la page \"Gérer les groupes\" dans le module complémentaire Simple Tab Groups",
+        "message": "Ouvre la page \"Gérer les groupes\" dans le module complémentaire zilldevel-tabgroups",
         "description": "Extension description"
     },
     "needInstallSTGExtension": {
-        "message": "L'installation du module complémentaire Simple Tab Groups est requise\nCliquer ici pour ouvrir la page d'accueil de Simple Tab Groups",
-        "description": "Need install Simple Tab Groups extention\nClick here to open Simple Tab Groups home page"
+        "message": "L'installation du module complémentaire zilldevel-tabgroups est requise\nCliquer ici pour ouvrir la page d'accueil de zilldevel-tabgroups",
+        "description": "Need install zilldevel-tabgroups extention\nClick here to open zilldevel-tabgroups home page"
     },
     "defaultBrowserActionTitle": {
         "message": "Ouvrir la page \"Gérer les groupes\"",

@@ -1,29 +1,36 @@
-<h2><a href="https://addons.mozilla.org/firefox/addon/simple-tab-groups/" target="_blank" rel="noopener noreferrer"><img width="48" src="https://rawgit.com/Drive4ik/simple-tab-groups/master/addon/src/icons/icon.svg" alt="Simple Tab Groups - zilldevel fork"></a> Simple Tab Groups - zilldevel fork</h2>
+<h2><a href="https://github.com/zilldevel/firefox-addons-zilldevel-tabgroups/releases/latest" target="_blank" rel="noopener noreferrer"><img width="48" src="https://rawgit.com/Drive4ik/simple-tab-groups/master/addon/src/icons/icon.svg" alt="zilldevel-tabgroups"></a> zilldevel-tabgroups</h2>
 
-Simple Tab Groups is developed and maintained by Drive4ik. This fork adds changes from zilldevel (me) so that I can test and use my own customizations independent of the original project. If I think my changes would be useful to a larger audience and they pass validation, I will likely attempt to creaete a PR upstream so that Drive4ik has the option to merge if they like.
+This project is a fork of [Simple Tab Groups](https://github.com/Drive4ik/simple-tab-groups) by Drive4ik. I (zilldevel) made it for testing out my own customizations independent of the original project. This project is not intended to replace STG or steal its glory. I plan to submit any worthwhile changes upstream for consideration but ultimately I plan to keep my changes present here for my own use, regardless of whether or not they are accepted upstream. Any who like my changes are welcome to use this version but I would encourage any users who are unfamiliar with STG to instead check out the original project first before deciding to use my forked version.
 
-I am mostly only concerned with my own changes and don't plan to support everything in the original addon. For example, I probably am not going to bother with doing google translates of text/localization except in feature branches related to PRs (translation PRs are still welcome, I just won't be doing them myself).
+Some other notes:
 
-All of my addons.mozilla.org (AMO) specific changes will be made in this branch which can be considered as the master branch for my AMO published version. Any issues specifically related to changes in my project should be filed against my project. Otherwise, the issue(s) should be retested against the original addon and filed there.
+- The name and logo changes are my attempts to better comply with the license. Not sure if that was actually required or not but, even if not, I would rather be respectful wherever possible by doing my best to comply with original author's wishes.
 
-My versioning standard will be: v<original-addon-version>.<fork-sub-version> (e.g. "5.2.0.1" => based off STG v5.2 code with my own internal version of "0.1").
+- I plan to do machine translations for any PRs I send off to upstream, but outside of that, I will probably slack and only do English. Translations are always welcome but I encourage you to submit them upstream wherever possible.
 
-Please support the original project / developer.
+- This branch will contain any branding/logo/manifest changes as well as tested changes. As I had been new to the process, I originally had assumed (incorrectly) that I had to publish to AMO in order to get a signed build and be able to install my version in stable versions of Firefox and submitted a build to AMO. That build had been approved initially but then was rejected/removed by a different reviewer several days later on the grounds of this being a fork. Since apparently forks are a no-go for AMO and I have since realized that [signing](https://extensionworkshop.com/documentation/publish/signing-and-distribution-overview/) can be done without submitting the addon as a public AMO download, my plan for now is to just create a signed xpi and offer it under the Releases section on this site. If my fork ever diverges from upstream or upstream sees no activity for some time (e.g. see [issue 995](https://github.com/Drive4ik/simple-tab-groups/issues/995)) or someone requests it, then I might revisit this but as long as it's just me using it, I probably won't bother.
 
+- For now, my versioning standard will be <upstream version>.<my version> e.g. if upstream version is 5.2.0 then my first build will be 5.2.0.1, second 5.2.0.2 and so on.
 
-[![Mozilla Add-on](https://img.shields.io/amo/v/simple-tab-groups.svg)](https://addons.mozilla.org/firefox/addon/simple-tab-groups/) [![](https://img.shields.io/amo/d/simple-tab-groups.svg)](https://addons.mozilla.org/firefox/addon/simple-tab-groups/statistics/?last=365) [![](https://img.shields.io/amo/users/simple-tab-groups.svg)](https://addons.mozilla.org/firefox/addon/simple-tab-groups/statistics/usage/?last=365) [![](https://img.shields.io/amo/rating/simple-tab-groups.svg)](https://addons.mozilla.org/firefox/addon/simple-tab-groups/reviews/)
+**Please support the original project / developer.**
 
-[![https://addons.mozilla.org/firefox/addon/simple-tab-groups/](https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_2.png)](https://addons.mozilla.org/firefox/addon/simple-tab-groups/)
+Outside of this section and the next, I will be mostly leaving the original README text from upstream so in those sections "I" will probably be in the context of Drive4ik unless otherwise specified.
+
 
 
 # Differences from original Drive4ik version
 
-Currently this is just a test build and there are no changes.
+Aside from branding and logo changes made in an attempt to be compliant w STG's license terms, the differences are as follows:
 
-Most of my planned changes revolve around making STG less annoying when you aren't using it (e.g. when you are in private browsing mode) such as the following:
+Implemented:
 
-- STG is not designed to work in private browsing mode. I have no intention of changing that. However, currently STG creates a lot of annoying notifications when you have it installed and decide to run a one-off private browsing sessionn. I do plan on addressing the way STG does notifications so that it does not get in the way while private browsing.
-- STG conflicts with several addons. In my own testing of the original addon, I found that if you install one of those conflicting addons while in private browsing mode, not only do you get some nag screens from STG about this, but there appears to be a bug where it goes into an infinite loop opening tons of notification windows until you either kill the browser process (e.g. via remote ssh commands), the system kills the browser process, or the system runs out of memory and reboots. I plan to retest this and try to capture a video of this behavior using the original (unmodified) addon and file a ticket on the original project. If the issue isn't too complex, I may also consider creating a patch for it.
+- **Add ability to completely disable ALL notifications**: STG is not designed to work in private browsing mode. But rather than just silently doing nothing when you open a private browsing session, it squawks and bitches about it with a notification message. But it gets worse: not only do you see this notification when you first open the private browsing session, you will get it again EVERY time another addon opens a window (I have confirmed this with STG + DownThemAll in private browsing mode). I initially added an option to disable the notification about private browsing (see the [option-no-priv-browsing-notifications branch](https://github.com/zilldevel/firefox-addons-zilldevel-tabgroups/tree/option-no-priv-browsing-notifications)) but found that I would still occassionally get other notification messages while in private browsing. So I replaced the original option with one that allows you to disable ALL notifications for the entire addon (see the [option-to-disable-all-notifications branch](https://github.com/zilldevel/firefox-addons-zilldevel-tabgroups/tree/option-to-disable-all-notifications) / [upstream PR 1173](https://github.com/Drive4ik/simple-tab-groups/pull/1173)). Added in v5.2.0.1
+
+Planned:
+
+- STG conflicts with several addons. In my own testing of the original addon, I found that if you install one of those conflicting addons (e.g. TabStash) while in private browsing mode, not only do you get some nag screens from STG about this, but there appears to be a bug where it goes into an infinite loop opening tons of notification windows until you either kill the browser process (e.g. via remote ssh commands), the system kills the browser process, or the system runs out of memory and reboots. I plan to retest this and try to capture a video of this behavior using the original (unmodified) addon and file a ticket on the original project. If the issue isn't too complex, I may also consider creating a patch for it.
+- Not committing to anything but there are a few existing STG issues that I wouldn't mind seeing resolved / features added for. Such as [1147](https://github.com/Drive4ik/simple-tab-groups/issues/1147), [768](https://github.com/Drive4ik/simple-tab-groups/issues/768)
+
 
 
 ## Translations
@@ -71,7 +78,7 @@ On Fedora Linux, I use the following to build:
 
 ## Description
 
-Simple Tab Groups works across browser instances/windows too. If you select a group in another window, the selected window will jump to the foreground with the chosen group selected. You can even select the specific tab within that group in background browser windows. [GIF example](https://user-images.githubusercontent.com/7843031/33828871-806ccf6e-de76-11e7-9a0e-1ddfb97e878d.gif)
+zilldevel-tabgroups works across browser instances/windows too. If you select a group in another window, the selected window will jump to the foreground with the chosen group selected. You can even select the specific tab within that group in background browser windows. [GIF example](https://user-images.githubusercontent.com/7843031/33828871-806ccf6e-de76-11e7-9a0e-1ddfb97e878d.gif)
 
 This allows for easy switching between active and pre-loaded tabs across multiple browser windows.
 
@@ -93,7 +100,7 @@ Allow import groups from addons "Panorama View" and "Sync Tab Groups".
 
 You have to copy and paste into Gesturefy addon
 
-`Add-on ID` : `simple-tab-groups@zilldevel`
+`Add-on ID` : `zilldevel-tabgroups@zilldevel`
 
 `Parse message` -> `On`
 

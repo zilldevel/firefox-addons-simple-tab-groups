@@ -3,16 +3,16 @@
 
     "browser_specific_settings": {
         "gecko": {
-            "id": "simple-tab-groups-zilldevel@zilldevel",
+            "id": "zilldevel-tabgroups@zilldevel",
             "strict_min_version": "102.0"
         }
     },
 
     "name": "__MSG_extensionName__",
     "description": "__MSG_extensionDescription__",
-    "version": "5.2.0.1",
+    "version": "5.2.0.2",
     "author": "zilldevel",
-    "homepage_url": "https://github.com/zilldevel/firefox-addons-simple-tab-groups",
+    "homepage_url": "https://github.com/zilldevel/firefox-addons-zilldevel-tabgroups",
 
     "incognito": "not_allowed",
 

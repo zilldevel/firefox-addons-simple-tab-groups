@@ -4,8 +4,8 @@
         "description": "Extension description"
     },
     "needInstallSTGExtension": {
-        "message": "Zainstaluj dodatek Simple Tab Groups\nNaciśnij tu aby przejść do strony domowej Simple Tab Groups",
-        "description": "Need install Simple Tab Groups extention\nClick here to open home page Simple Tab Groups"
+        "message": "Zainstaluj dodatek zilldevel-tabgroups\nNaciśnij tu aby przejść do strony domowej zilldevel-tabgroups",
+        "description": "Need install zilldevel-tabgroups extention\nClick here to open home page zilldevel-tabgroups"
     },
     "createNewGroupTitle": {
         "message": "Stwórz nową grupę",

@@ -118,18 +118,18 @@ export const CONFLICTED_EXTENSIONS = Object.freeze([
 ]);
 
 export const EXTENSIONS_WHITE_LIST = Object.freeze({
-    'stg-plugin-create-new-group@zilldevel': {
-        title: '[STG plugin] Create new group',
-        url: 'https://addons.mozilla.org/firefox/addon/stg-plugin-create-new-group/',
+    'ztg-plugin-create-new-group@zilldevel': {
+        title: '[ZTG plugin] Create new group',
+        url: 'https://github.com/zilldevel/firefox-addons-zilldevel-tabgroups',
         postActions: [],
         getActions: [
             'add-new-group',
             'load-last-group',
         ],
     },
-    'stg-plugin-load-custom-group@zilldevel': {
-        title: '[STG plugin] Load custom group',
-        url: 'https://addons.mozilla.org/firefox/addon/stg-plugin-load-custom-group/',
+    'ztg-plugin-load-custom-group@zilldevel': {
+        title: '[ZTG plugin] Load custom group',
+        url: 'https://github.com/zilldevel/firefox-addons-zilldevel-tabgroups',
         postActions: [
             'i-am-back',
             'group-added',
@@ -142,25 +142,25 @@ export const EXTENSIONS_WHITE_LIST = Object.freeze({
             'load-custom-group',
         ],
     },
-    'stg-plugin-manage-groups@zilldevel': {
-        title: '[STG plugin] Open Manage groups',
-        url: 'https://addons.mozilla.org/firefox/addon/stg-plugin-open-manage-groups/',
+    'ztg-plugin-manage-groups@zilldevel': {
+        title: '[ZTG plugin] Open Manage groups',
+        url: 'https://github.com/zilldevel/firefox-addons-zilldevel-tabgroups',
         postActions: [],
         getActions: [
             'open-manage-groups',
         ],
     },
-    'stg-plugin-del-current-group@zilldevel': {
-        title: '[STG plugin] Delete current group',
-        url: 'https://addons.mozilla.org/firefox/addon/stg-plugin-del-current-group/',
+    'ztg-plugin-del-current-group@zilldevel': {
+        title: '[ZTG plugin] Delete current group',
+        url: 'https://github.com/zilldevel/firefox-addons-zilldevel-tabgroups',
         postActions: [],
         getActions: [
             'delete-current-group',
         ],
     },
-    'stg-plugin-group-notes@zilldevel': {
-        title: '[STG plugin] Group notes',
-        url: 'https://addons.mozilla.org/firefox/addon/stg-plugin-group-notes/',
+    'ztg-plugin-group-notes@zilldevel': {
+        title: '[ZTG plugin] Group notes',
+        url: 'https://github.com/zilldevel/firefox-addons-zilldevel-tabgroups',
         postActions: [
             'i-am-back',
             'group-loaded',
@@ -174,9 +174,9 @@ export const EXTENSIONS_WHITE_LIST = Object.freeze({
             'get-groups-list',
         ],
     },
-    'stg-plugin-create-new-tab@zilldevel': {
-        title: '[STG plugin] Create new tab',
-        url: 'https://addons.mozilla.org/firefox/addon/stg-plugin-create-new-tab/',
+    'ztg-plugin-create-new-tab@zilldevel': {
+        title: '[ZTG plugin] Create new tab',
+        url: 'https://github.com/zilldevel/firefox-addons-zilldevel-tabgroups',
         postActions: [
             'i-am-back',
             'group-loaded',
@@ -189,9 +189,9 @@ export const EXTENSIONS_WHITE_LIST = Object.freeze({
             'get-current-group',
         ],
     },
-    'stg-plugin-create-temp-tab@zilldevel': {
-        title: '[STG plugin] Create new tab in temporary container',
-        url: 'https://addons.mozilla.org/firefox/addon/stg-plugin-create-temp-tab/',
+    'ztg-plugin-create-temp-tab@zilldevel': {
+        title: '[ZTG plugin] Create new tab in temporary container',
+        url: 'https://github.com/zilldevel/firefox-addons-zilldevel-tabgroups',
         postActions: [],
         getActions: [
             'create-temp-tab',
@@ -199,7 +199,7 @@ export const EXTENSIONS_WHITE_LIST = Object.freeze({
     },
     '{506e023c-7f2b-40a3-8066-bc5deb40aebe}': {
         title: 'Gesturefy',
-        url: 'https://addons.mozilla.org/firefox/addon/gesturefy/',
+        url: 'https://github.com/zilldevel/firefox-addons-zilldevel-tabgroups',
         postActions: [],
         getActions: [
             'load-next-group',
@@ -227,7 +227,7 @@ export const EXTENSIONS_WHITE_LIST = Object.freeze({
     },
     'tridactyl.vim@cmcaine.co.uk': {
         title: 'Tridactyl',
-        url: 'https://addons.mozilla.org/firefox/addon/tridactyl-vim/',
+        url: 'https://github.com/zilldevel/firefox-addons-zilldevel-tabgroups',
         postActions: [
             'i-am-back',
             'group-added',

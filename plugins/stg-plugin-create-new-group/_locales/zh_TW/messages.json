@@ -4,8 +4,8 @@
         "description": "Extension description"
     },
     "needInstallSTGExtension": {
-        "message": "需要安裝 Simple Tab Groups 套件。\n點擊此處開啟 Simple Tab Groups 首頁。",
-        "description": "Need install Simple Tab Groups extention\nClick here to open home page Simple Tab Groups"
+        "message": "需要安裝 zilldevel-tabgroups 套件。\n點擊此處開啟 zilldevel-tabgroups 首頁。",
+        "description": "Need install zilldevel-tabgroups extention\nClick here to open home page zilldevel-tabgroups"
     },
     "createNewGroupTitle": {
         "message": "建立新分頁群組",

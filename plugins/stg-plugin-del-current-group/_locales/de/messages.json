@@ -5,7 +5,7 @@
     },
     "needInstallSTGExtension": {
         "message": "Benötigt die Installation der Einfache Tab-Gruppen Erweiterung\nKlicken Sie hier, um die Startseite der Erweiterung Einfache Tab-Gruppen zu öffnen",
-        "description": "Need install Simple Tab Groups extention\nClick here to open Simple Tab Groups home page"
+        "description": "Need install zilldevel-tabgroups extention\nClick here to open zilldevel-tabgroups home page"
     },
     "defaultBrowserActionTitle": {
         "message": "Lösche die aktuelle Gruppe",

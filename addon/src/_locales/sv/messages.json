@@ -92,8 +92,8 @@
         "description": "Show confirm dialog before group delete"
     },
     "exportAddonSettingsTitle": {
-        "message": "Ta en säkerhetskopia av Simple Tab Groups-inställningar och -flikar",
-        "description": "Backup your Simple Tab Groups"
+        "message": "Ta en säkerhetskopia av zilldevel-tabgroups-inställningar och -flikar",
+        "description": "Backup your zilldevel-tabgroups"
     },
     "exportAddonSettingsDescription": {
         "message": "Säkerhetskopiera dina flikgrupper till en fil, för att vid behov kunna återställa dem.",
@@ -108,8 +108,8 @@
         "description": "Include tab thumbnails in backup (makes backup file size bigger)"
     },
     "importAddonSettingsTitle": {
-        "message": "Återställ Simple Tab Groups-data",
-        "description": "Restore Simple Tab Groups"
+        "message": "Återställ zilldevel-tabgroups-data",
+        "description": "Restore zilldevel-tabgroups"
     },
     "importAddonSettingsDescription": {
         "message": "Återställ flikar och inställningar från en fil som innehåller en säkerhetskopia.",
@@ -244,7 +244,7 @@
         "description": "Regular expressions"
     },
     "regexpForTabsHelp": {
-        "message": "Ge ett reguljärt uttryck för webbadresser. Flikar med adresser som matcher flyttas automatiskt till den här grpupen.\nDu kan ha hur många regler som helst, men en regel per rad.\\Exempel:\ngithub\\.com/drive4ik/simple-tab-groups - fångar alla sidor från tilläggets källkodssida\nbugzilla\\.mozilla\\.org - fånga alla Firefox-buggrapporter\n(facebook|twitter|youtube)\\.com - fånga sociala medier",
+        "message": "Ge ett reguljärt uttryck för webbadresser. Flikar med adresser som matcher flyttas automatiskt till den här grpupen.\nDu kan ha hur många regler som helst, men en regel per rad.\\Exempel:\ngithub\\.com/zilldevel/firefox-addons-zilldevel-tabgroups - fångar alla sidor från tilläggets källkodssida\nbugzilla\\.mozilla\\.org - fånga alla Firefox-buggrapporter\n(facebook|twitter|youtube)\\.com - fånga sociala medier",
         "description": "Regular exceptions helper"
     },
     "hotkeysTitle": {
@@ -410,8 +410,8 @@
         }
     },
     "clickHereToReloadAddon": {
-        "message": "Någonting gick fel, klicka här för att ladda om Simple Tab Groups-tillägget",
-        "description": "Something went wrong, click here to reload STG addon"
+        "message": "Någonting gick fel, klicka här för att ladda om zilldevel-tabgroups-tillägget",
+        "description": "Something went wrong, click here to reload ZTG addon"
     },
     "extendedTabSearch": {
         "message": "Utökad sökning",

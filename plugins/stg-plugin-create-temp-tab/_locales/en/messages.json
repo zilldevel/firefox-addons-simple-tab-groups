@@ -1,15 +1,15 @@
 {
     "extensionName": {
-        "message": "[STG plugin] Create new tab in temporary container",
+        "message": "[ZTG plugin] Create new tab in temporary container",
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Create a new tab in the container in the Simple Tab Groups v4.5.2+ extension",
+        "message": "Create a new tab in the container in the zilldevel-tabgroups v4.5.2+ extension",
         "description": "Extension description"
     },
     "needInstallSTGExtension": {
-        "message": "Need install Simple Tab Groups extention\nClick here to open Simple Tab Groups home page",
-        "description": "Need install Simple Tab Groups extention\nClick here to open Simple Tab Groups home page"
+        "message": "Need install zilldevel-tabgroups extention\nClick here to open zilldevel-tabgroups home page",
+        "description": "Need install zilldevel-tabgroups extention\nClick here to open zilldevel-tabgroups home page"
     },
     "newTempTabTitle": {
         "message": "Open a new tab in temporary container",

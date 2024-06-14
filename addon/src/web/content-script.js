@@ -24,7 +24,7 @@ async function loadHotkeys(errorCounter = 0) {
         if (errorCounter < 100) {
             setTimeout(loadHotkeys, 200, errorCounter);
         } else {
-            console.error('[STG] can\'t load hotkeys from storage');
+            console.error('[ZTG] can\'t load hotkeys from storage');
         }
     }
 }
@@ -314,7 +314,7 @@ let promptNowShowing = false;
 
 async function showPrompt({promptTitle, value}) {
     if (promptNowShowing) {
-        console.warn('[STG] prompt now showing');
+        console.warn('[ZTG] prompt now showing');
         return;
     }
 

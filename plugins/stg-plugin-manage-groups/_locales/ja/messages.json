@@ -1,11 +1,11 @@
 {
     "extensionDescription": {
-        "message": "Simple Tab Groups の追加機能です。グループの管理ボタンを追加します。",
+        "message": "zilldevel-tabgroups の追加機能です。グループの管理ボタンを追加します。",
         "description": "Extension description"
     },
     "needInstallSTGExtension": {
-        "message": "Simple Tab Groups のエクステンションをインストールする必要があります。\nここをクリックして Simple Tab Groups のホームページを開いてください",
-        "description": "Need install Simple Tab Groups extention\nClick here to open Simple Tab Groups home page"
+        "message": "zilldevel-tabgroups のエクステンションをインストールする必要があります。\nここをクリックして zilldevel-tabgroups のホームページを開いてください",
+        "description": "Need install zilldevel-tabgroups extention\nClick here to open zilldevel-tabgroups home page"
     },
     "defaultBrowserActionTitle": {
         "message": "グループの管理",

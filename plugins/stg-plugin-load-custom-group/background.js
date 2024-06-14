@@ -5,7 +5,7 @@ const SUPPORTED_STG_ACTIONS = new Set(['i-am-back', 'group-added', 'group-update
 
 browser.runtime.onMessageExternal.addListener(async (request, sender) => {
     if (sender.id !== Constants.STG_ID) {
-        console.error(`Only STG support`);
+        console.error(`Only ZTG support`);
         return;
     }
 

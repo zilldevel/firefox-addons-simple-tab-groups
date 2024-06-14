@@ -1,11 +1,11 @@
 {
     "extensionDescription": {
-        "message": "Simple Tab Groups 拡張で新しいタブグループを作成します",
+        "message": "zilldevel-tabgroups 拡張で新しいタブグループを作成します",
         "description": "Extension description"
     },
     "needInstallSTGExtension": {
-        "message": "Simple Tab Groups 拡張のインストールが必要です\nここをクリックすると Simple Tab Groups のホームページを開きます",
-        "description": "Need install Simple Tab Groups extention\nClick here to open home page Simple Tab Groups"
+        "message": "zilldevel-tabgroups 拡張のインストールが必要です\nここをクリックすると zilldevel-tabgroups のホームページを開きます",
+        "description": "Need install zilldevel-tabgroups extention\nClick here to open home page zilldevel-tabgroups"
     },
     "createNewGroupTitle": {
         "message": "新しいグループを作成",

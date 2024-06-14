@@ -1,15 +1,15 @@
 {
     "extensionName": {
-        "message": "[STG plugin] Load custom group",
+        "message": "[ZTG plugin] Load custom group",
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Load custom group in Simple Tab Groups extention",
+        "message": "Load custom group in zilldevel-tabgroups extention",
         "description": "Extension description"
     },
     "needInstallSTGExtension": {
-        "message": "Need install Simple Tab Groups extention\nClick here to open Simple Tab Groups home page",
-        "description": "Need install Simple Tab Groups extention\nClick here to open Simple Tab Groups home page"
+        "message": "Need install zilldevel-tabgroups extention\nClick here to open zilldevel-tabgroups home page",
+        "description": "Need install zilldevel-tabgroups extention\nClick here to open zilldevel-tabgroups home page"
     },
     "openSettings": {
         "message": "Settings",

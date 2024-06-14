@@ -1,11 +1,11 @@
 {
     "extensionDescription": {
-        "message": "Simple Tab Groups v4.4 拡張でグループ上にコンテナーベースの新しいタブを作成します",
+        "message": "zilldevel-tabgroups v4.4 拡張でグループ上にコンテナーベースの新しいタブを作成します",
         "description": "Extension description"
     },
     "needInstallSTGExtension": {
-        "message": "Simple Tab Groups 拡張のインストールが必要です\nここをクリックすると Simple Tab Groups のホームページを開きます",
-        "description": "Need install Simple Tab Groups extention or change container in addon settings\nClick here to open Simple Tab Groups home page"
+        "message": "zilldevel-tabgroups 拡張のインストールが必要です\nここをクリックすると zilldevel-tabgroups のホームページを開きます",
+        "description": "Need install zilldevel-tabgroups extention or change container in addon settings\nClick here to open zilldevel-tabgroups home page"
     },
     "newTabTitle": {
         "message": "新しいタブを開く",

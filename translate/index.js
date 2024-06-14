@@ -2,8 +2,8 @@
     'use strict';
 
     const USER_NAME = 'zilldevel',
-        REPOSITORY = 'firefox-addons-simple-tab-groups',
-        MY_EMAIL = 'zilldevel+stg@protonmail.com',
+        REPOSITORY = 'firefox-addons-zilldevel-tabgroups',
+        MY_EMAIL = 'zilldevel+tabgroupsaddon@proton.me',
         LOCALE_FILE_EXT = '.json',
         apiUrlPrefix = `https://api.github.com/repos/${USER_NAME}/${REPOSITORY}/`,
         contentUrlPrefix = `https://raw.githubusercontent.com/${USER_NAME}/${REPOSITORY}/`;
@@ -40,10 +40,10 @@
 
             componentLoading: true,
             components: [{
-                name: 'simple-tab-groups-addon',
+                name: 'zilldevel-tabgroups-addon',
                 path: 'addon/src',
             }],
-            componentName: 'simple-tab-groups-addon',
+            componentName: 'zilldevel-tabgroups-addon',
 
             availableLocalesLoading: false,
             locales: [],

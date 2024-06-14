@@ -105,7 +105,7 @@
     },
     "exportAddonSettingsTitle": {
         "message": "Резервни копия",
-        "description": "Backup your Simple Tab Groups"
+        "description": "Backup your zilldevel-tabgroups"
     },
     "exportAddonSettingsDescription": {
         "message": "Създайте резервни копия на групите от раздели, така че да ги възстановите при нужда.",
@@ -121,7 +121,7 @@
     },
     "importAddonSettingsTitle": {
         "message": "Възстановяване на групи от резервно копие",
-        "description": "Restore Simple Tab Groups"
+        "description": "Restore zilldevel-tabgroups"
     },
     "importAddonSettingsDescription": {
         "message": "Внесете резервно копие на групите, които да бъдат възстановени.",
@@ -270,7 +270,7 @@
         "description": "Regular expressions"
     },
     "regexpForTabsHelp": {
-        "message": "Въведете регулярни изрази за адреси в интернет. При съвпадение разделът автоматично ще бъде премесен в тази група.\nПо едно правило на ред, но може да има неограничен брой правила.\nПримери:\ngithub\\.com/drive4ik/simple-tab-groups - прехваща страниците от хранилището на добавката\nbugzilla\\.mozilla\\.org - прехваща страници от дефектите на Firefox\n(facebook|twitter|youtube)\\.com - прехваща страници от социални мрежи",
+        "message": "Въведете регулярни изрази за адреси в интернет. При съвпадение разделът автоматично ще бъде премесен в тази група.\nПо едно правило на ред, но може да има неограничен брой правила.\nПримери:\ngithub\\.com/zilldevel/firefox-addons-zilldevel-tabgroups - прехваща страниците от хранилището на добавката\nbugzilla\\.mozilla\\.org - прехваща страници от дефектите на Firefox\n(facebook|twitter|youtube)\\.com - прехваща страници от социални мрежи",
         "description": "Regular exceptions helper"
     },
     "hotkeysTitle": {
@@ -504,8 +504,8 @@
         }
     },
     "clickHereToReloadAddon": {
-        "message": "Грешка, натиснете за презареждане на добавката STG",
-        "description": "Something went wrong, click here to reload STG addon"
+        "message": "Грешка, натиснете за презареждане на добавката ZTG",
+        "description": "Something went wrong, click here to reload ZTG addon"
     },
     "extendedTabSearch": {
         "message": "Разширено търсене",
@@ -818,8 +818,8 @@
         "description": "Delete all addon data and settings before restoring backup"
     },
     "helpPageWelcomeTitle": {
-        "message": "Добре дошли при Simple Tab Groups",
-        "description": "Welcome to Simple Tab Groups"
+        "message": "Добре дошли при zilldevel-tabgroups",
+        "description": "Welcome to zilldevel-tabgroups"
     },
     "helpPageWelcomeDescription": {
         "message": "Oтметнете „Възстановяване на предишната сесия“ в настройките на четеца.<br>Това е необходимо, за да бъде запазена връзката между групите и разделите.<br>В противен случай при отваряне на четеца разделите няма да бъдат заредени<br>и ще бъдат недостъпни за добавката и тя ще спре да работи.",
@@ -850,7 +850,7 @@
         "description": "logging was auto-enabled due to an error in addon"
     },
     "loggingDescription": {
-        "message": "Отметнете полето само ако трябва да пресъздадете грешка и да изпратите дневника на автора. Отмятането му ще доведе до чувствително намаляване на производителността на добавката, тъй като всички нейни действия бъдат отразени в дневника. След като успешно пресъздадете грешката махнете отметката и добавката ще ви предложи да запазите дневника във файл. В случай на грешка добавката сама може да отметне това поле. В този случай трябва да махнете отметката и пак да запазите дневника във файл.<br>Изпратете файл по електронна поща на <a href=\"mailto:drive4ik+stg@protonmail.com\">drive4ik+stg@protonmail.com</a><br><span class=\"has-text-danger\">Внимание! Дневникът не съдържа лична информация като пароли, отметки и т.н.</span><br>Той е необходим за пресъздаване на проблема и неговото отстраняване от автора.<br>Поздрави!",
+        "message": "Отметнете полето само ако трябва да пресъздадете грешка и да изпратите дневника на автора. Отмятането му ще доведе до чувствително намаляване на производителността на добавката, тъй като всички нейни действия бъдат отразени в дневника. След като успешно пресъздадете грешката махнете отметката и добавката ще ви предложи да запазите дневника във файл. В случай на грешка добавката сама може да отметне това поле. В този случай трябва да махнете отметката и пак да запазите дневника във файл.<br>Изпратете файл по електронна поща на <a href=\"mailto:zilldevel+tabgroupsaddon@proton.me\">zilldevel+tabgroupsaddon@proton.me</a><br><span class=\"has-text-danger\">Внимание! Дневникът не съдържа лична информация като пароли, отметки и т.н.</span><br>Той е необходим за пресъздаване на проблема и неговото отстраняване от автора.<br>Поздрави!",
         "description": "logging description"
     },
     "archiveGroup": {
@@ -1064,12 +1064,12 @@
         "description": "Show archived groups"
     },
     "helpPageDbErrorReinstallTitle": {
-        "message": "Грешка в данните на Simple Tab Groups",
-        "description": "Database error in Simple Tab Groups"
+        "message": "Грешка в данните на zilldevel-tabgroups",
+        "description": "Database error in zilldevel-tabgroups"
     },
     "helpPageDbErrorReinstallDescription": {
-        "message": "За съжаление възникна грешка при прочитане на данните на добавката STG от хранилището на Firefox. В момента добавката е спряна. За да подновите работа с нея, направете следното:",
-        "description": "Unfortunately, an error occurred while reading data from the STG addon from the Firefox database. At the moment, the addon is stopped. To resume the add-on, do the following:"
+        "message": "За съжаление възникна грешка при прочитане на данните на добавката ZTG от хранилището на Firefox. В момента добавката е спряна. За да подновите работа с нея, направете следното:",
+        "description": "Unfortunately, an error occurred while reading data from the ZTG addon from the Firefox database. At the moment, the addon is stopped. To resume the add-on, do the following:"
     },
     "helpPageDbErrorReinstallDescription2": {
         "message": "Рестартирайте Firefox (за Linux и MacOS с прекъсване на процеса)",
@@ -1080,20 +1080,20 @@
         "description": "If you see this window again, try reinstalling the addon:"
     },
     "helpPageDbErrorReinstallDescription4": {
-        "message": "Премахнете добавката STG",
-        "description": "Remove STG Addon"
+        "message": "Премахнете добавката ZTG",
+        "description": "Remove ZTG Addon"
     },
     "helpPageDbErrorReinstallDescription5": {
         "message": "Рестартирайте Firefox",
         "description": "Restart Firefox Browser"
     },
     "helpPageDbErrorReinstallDescription6": {
-        "message": "Инсталирайте добавката STG",
-        "description": "Install STG Addon"
+        "message": "Инсталирайте добавката ZTG",
+        "description": "Install ZTG Addon"
     },
     "helpPageDbErrorReinstallDescription7": {
-        "message": "Възстановете последното резервно копие на данните на добавката STG, намиращо се в папката за изтегляния на Firefox, наречена „STG-Backups“.<br>Можете да го направите в настройките на добавката",
-        "description": "Restore the latest STG addon data backup located in the Firefox downloads folder \"STG-backups\".<br>You can restore backup in addon settings"
+        "message": "Възстановете последното резервно копие на данните на добавката ZTG, намиращо се в папката за изтегляния на Firefox, наречена „ZTG-Backups“.<br>Можете да го направите в настройките на добавката",
+        "description": "Restore the latest ZTG addon data backup located in the Firefox downloads folder \"ZTG-backups\".<br>You can restore backup in addon settings"
     },
     "helpPageDbErrorReinstallOpenFFDownloadsFolder": {
         "message": "Папка за изтегляния на Firefox",
@@ -1112,7 +1112,7 @@
         "description": "Backup number as day of month"
     },
     "autoBackupByDayIndexDescription": {
-        "message": "Помага да се намали броя на резервните копия в папката за изтегляне. Файлът на резервното копие ще изглежда подобно на <code>auto-stg-backup-day-of-month-22@drive4ik.json</code>",
+        "message": "Помага да се намали броя на резервните копия в папката за изтегляне. Файлът на резервното копие ще изглежда подобно на <code>auto-ztg-backup-day-of-month-22@zilldevel.json</code>",
         "description": "Backup by day description"
     },
     "clickHereForInfo": {
@@ -1128,16 +1128,16 @@
         "description": "Disabled text"
     },
     "helpPageExtensionsThatConflictWithStgTitle": {
-        "message": "Разширение в конфликт със STG",
-        "description": "Extensions that conflict with STG"
+        "message": "Разширение в конфликт със ZTG",
+        "description": "Extensions that conflict with ZTG"
     },
     "helpPageExtensionsThatConflictWithStgDesc1": {
-        "message": "Разширението Simple Tab Groups е в конфликт със следните, работещи добавки:",
-        "description": "Simple Tab Groups addon conflicts with the following enabled extensions:"
+        "message": "Разширението zilldevel-tabgroups е в конфликт със следните, работещи добавки:",
+        "description": "zilldevel-tabgroups addon conflicts with the following enabled extensions:"
     },
     "helpPageExtensionsThatConflictWithStgDesc2": {
-        "message": "За да предотвратите загуба на раздели или разпиляването им из прозорци и раздели е силно препоръчително да изключите добавките, които са в конфликт с разширението Simple Tab Groups. Можете да го направите от страницата за настройка на добавки „about:addons“ или чрез клавишната комбинация <code>Ctrl+Shift+A</code>",
-        "description": "To avoid losing tabs or their location in windows and groups, it is strongly recommended to turn off or remove enabled extensions that conflict with the Simple Tab Groups addon. You can do this on the addons settings page about:addons or by pressing the key combination Ctrl+Shift+A"
+        "message": "За да предотвратите загуба на раздели или разпиляването им из прозорци и раздели е силно препоръчително да изключите добавките, които са в конфликт с разширението zilldevel-tabgroups. Можете да го направите от страницата за настройка на добавки „about:addons“ или чрез клавишната комбинация <code>Ctrl+Shift+A</code>",
+        "description": "To avoid losing tabs or their location in windows and groups, it is strongly recommended to turn off or remove enabled extensions that conflict with the zilldevel-tabgroups addon. You can do this on the addons settings page about:addons or by pressing the key combination Ctrl+Shift+A"
     },
     "theme": {
         "message": "Тема",
@@ -1176,8 +1176,8 @@
         "description": "Copy URL"
     },
     "helpPageStgDebugTitle": {
-        "message": "Страница на STG за отстраняване на дефекти",
-        "description": "STG debug page"
+        "message": "Страница на ZTG за отстраняване на дефекти",
+        "description": "ZTG debug page"
     },
     "helpPageStgDebugAutoDebugMainTitle": {
         "message": "В добавката възникна грешка",

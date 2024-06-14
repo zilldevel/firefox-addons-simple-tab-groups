@@ -104,8 +104,8 @@
         "description": "Show confirmation dialog before archiving the group"
     },
     "exportAddonSettingsTitle": {
-        "message": "備份 Simple Tab Groups",
-        "description": "Backup your Simple Tab Groups"
+        "message": "備份 zilldevel-tabgroups",
+        "description": "Backup your zilldevel-tabgroups"
     },
     "exportAddonSettingsDescription": {
         "message": "將群組匯出備份檔保存，以供需要時還原。",
@@ -120,8 +120,8 @@
         "description": "Include tab thumbnails in backup (makes backup file size bigger)"
     },
     "importAddonSettingsTitle": {
-        "message": "還原 Simple Tab Groups",
-        "description": "Restore Simple Tab Groups"
+        "message": "還原 zilldevel-tabgroups",
+        "description": "Restore zilldevel-tabgroups"
     },
     "importAddonSettingsDescription": {
         "message": "載入備份檔並還原群組",
@@ -270,7 +270,7 @@
         "description": "Regular expressions"
     },
     "regexpForTabsHelp": {
-        "message": "在這裡輸入正規表示式，網址符合規則的分頁會被自動移到此群組。\n每列一條規則，可設定多條。\n例如：\ngithub\\.com/drive4ik/simple-tab-groups - 捕捉此附加元件版本庫的所有頁面\nbugzilla\\.mozilla\\.org - 捕捉 Firefox 錯誤回報的頁面\n(facebook|twitter|youtube)\\.com - 捕捉社群網站頁面",
+        "message": "在這裡輸入正規表示式，網址符合規則的分頁會被自動移到此群組。\n每列一條規則，可設定多條。\n例如：\ngithub\\.com/zilldevel/firefox-addons-zilldevel-tabgroups - 捕捉此附加元件版本庫的所有頁面\nbugzilla\\.mozilla\\.org - 捕捉 Firefox 錯誤回報的頁面\n(facebook|twitter|youtube)\\.com - 捕捉社群網站頁面",
         "description": "Regular exceptions helper"
     },
     "hotkeysTitle": {
@@ -374,7 +374,7 @@
         "description": "Reload all tabs in current group"
     },
     "whatsWrongMessage": {
-        "message": "發生錯誤...\n請寄信聯絡開發者，並附上最近的錯誤記錄 (選項 > 一般 > 最下面的 「STG 除錯頁面」按鈕)\n按這裡繼續...",
+        "message": "發生錯誤...\n請寄信聯絡開發者，並附上最近的錯誤記錄 (選項 > 一般 > 最下面的 「ZTG 除錯頁面」按鈕)\n按這裡繼續...",
         "description": "Whats wrong...\nPlease contact with developer by support email with last error logs (exist button at bottom of options)"
     },
     "saveErrorLogsIntoFile": {
@@ -500,8 +500,8 @@
         }
     },
     "clickHereToReloadAddon": {
-        "message": "發生錯誤，點選這裡重新載入 STG 附加元件",
-        "description": "Something went wrong, click here to reload STG addon"
+        "message": "發生錯誤，點選這裡重新載入 ZTG 附加元件",
+        "description": "Something went wrong, click here to reload ZTG addon"
     },
     "extendedTabSearch": {
         "message": "附加元件搜尋",
@@ -798,11 +798,11 @@
         "description": "Clear"
     },
     "deleteAllAddonDataAndSettings": {
-        "message": "刪除所有 STG 附加元件資料與設定",
+        "message": "刪除所有 ZTG 附加元件資料與設定",
         "description": "Delete all addon data and settings"
     },
     "warningAllDataWillRemove": {
-        "message": "警告！確定刪除所有 STG 附加元件資料？",
+        "message": "警告！確定刪除所有 ZTG 附加元件資料？",
         "description": "Warning! Removing ALL addon data! Are you really sure?"
     },
     "ifDifferentContainerReOpen": {
@@ -810,12 +810,12 @@
         "description": "If the container is different from the selected one - change the container"
     },
     "deleteAllAddonDataAndSettingsBeforeRestoringBackup": {
-        "message": "還原備份之前先刪除所有 STG 附加元件資料與設定",
+        "message": "還原備份之前先刪除所有 ZTG 附加元件資料與設定",
         "description": "Delete all addon data and settings before restoring backup"
     },
     "helpPageWelcomeTitle": {
-        "message": "歡迎使用 Simple Tab Groups",
-        "description": "Welcome to Simple Tab Groups"
+        "message": "歡迎使用 zilldevel-tabgroups",
+        "description": "Welcome to zilldevel-tabgroups"
     },
     "helpPageWelcomeDescription": {
         "message": "請勾選瀏覽器設定中的「啟動時打開前次瀏覽的視窗與分頁 」。<br>\n這是本附加元件順利運作的必要先決條件，否則下次開啟瀏覽器將喪失所有開啟的分頁，本附加元件也無法運作。",
@@ -846,7 +846,7 @@
         "description": "logging was auto-enabled due to an error in addon"
     },
     "loggingDescription": {
-        "message": "請在必須紀錄臭蟲及傳送紀錄給我時才啟用這項功能。一旦啟用後會導致附加元件明顯變慢，因為所有動作及資訊都會被記錄下來。重現問題後就請關閉，附加元件會提示紀錄存檔。此功能可能因附加元件發生錯誤而自動被啟用。建議關閉此項功能並存檔。<br>請 Email 紀錄檔給我：<a href=\"mailto:drive4ik+stg@protonmail.com\">drive4ik+stg@protonmail.com</a><br> <span class=\"has-text-danger\">注意！記錄檔不會包含任何個資、密碼、書籤...等資訊！</span><br> 只會包含重現問題的必要資訊，也才能藉此除錯及修復。<br> 以上",
+        "message": "請在必須紀錄臭蟲及傳送紀錄給我時才啟用這項功能。一旦啟用後會導致附加元件明顯變慢，因為所有動作及資訊都會被記錄下來。重現問題後就請關閉，附加元件會提示紀錄存檔。此功能可能因附加元件發生錯誤而自動被啟用。建議關閉此項功能並存檔。<br>請 Email 紀錄檔給我：<a href=\"mailto:zilldevel+tabgroupsaddon@proton.me\">zilldevel+tabgroupsaddon@proton.me</a><br> <span class=\"has-text-danger\">注意！記錄檔不會包含任何個資、密碼、書籤...等資訊！</span><br> 只會包含重現問題的必要資訊，也才能藉此除錯及修復。<br> 以上",
         "description": "logging description"
     },
     "archiveGroup": {
@@ -1060,12 +1060,12 @@
         "description": "Show archived groups"
     },
     "helpPageDbErrorReinstallTitle": {
-        "message": "Simple Tab Groups 資料庫發生錯誤",
-        "description": "Database error in Simple Tab Groups"
+        "message": "zilldevel-tabgroups 資料庫發生錯誤",
+        "description": "Database error in zilldevel-tabgroups"
     },
     "helpPageDbErrorReinstallDescription": {
-        "message": "很不幸地，STG 附加元件嘗試從 Firefox 資料庫內讀取設定資料時發生錯誤。此時附加元件已停止，請照下列步驟繼續使用：",
-        "description": "Unfortunately, an error occurred while reading data from the STG addon from the Firefox database. At the moment, the addon is stopped. To resume the add-on, do the following:"
+        "message": "很不幸地，ZTG 附加元件嘗試從 Firefox 資料庫內讀取設定資料時發生錯誤。此時附加元件已停止，請照下列步驟繼續使用：",
+        "description": "Unfortunately, an error occurred while reading data from the ZTG addon from the Firefox database. At the moment, the addon is stopped. To resume the add-on, do the following:"
     },
     "helpPageDbErrorReinstallDescription2": {
         "message": "重啟 Firefox 瀏覽器 (Linux / Mac OS 可直接終止程序)",
@@ -1076,20 +1076,20 @@
         "description": "If you see this window again, try reinstalling the addon:"
     },
     "helpPageDbErrorReinstallDescription4": {
-        "message": "移除 STG 附加元件",
-        "description": "Remove STG Addon"
+        "message": "移除 ZTG 附加元件",
+        "description": "Remove ZTG Addon"
     },
     "helpPageDbErrorReinstallDescription5": {
         "message": "重啟 Firefox 瀏覽器",
         "description": "Restart Firefox Browser"
     },
     "helpPageDbErrorReinstallDescription6": {
-        "message": "安裝 STG 附加元件",
-        "description": "Install STG Addon"
+        "message": "安裝 ZTG 附加元件",
+        "description": "Install ZTG Addon"
     },
     "helpPageDbErrorReinstallDescription7": {
-        "message": "還原存放於 Firefox 下載目錄 \"STG-backups\" 中的最新備份檔，可以從附加元件設定中還原備份檔。",
-        "description": "Restore the latest STG addon data backup located in the Firefox downloads folder \"STG-backups\".<br>You can restore backup in addon settings"
+        "message": "還原存放於 Firefox 下載目錄 \"ZTG-backups\" 中的最新備份檔，可以從附加元件設定中還原備份檔。",
+        "description": "Restore the latest ZTG addon data backup located in the Firefox downloads folder \"ZTG-backups\".<br>You can restore backup in addon settings"
     },
     "helpPageDbErrorReinstallOpenFFDownloadsFolder": {
         "message": "開啟 Firefox 下載目錄",
@@ -1108,7 +1108,7 @@
         "description": "Backup number as day of month"
     },
     "autoBackupByDayIndexDescription": {
-        "message": "避免產生一大堆備份檔案難以管理，循環備份檔名會長得像這樣: \"auto-stg-backup-day-of-month-22@drive4ik.json\"。",
+        "message": "避免產生一大堆備份檔案難以管理，循環備份檔名會長得像這樣: \"auto-ztg-backup-day-of-month-22@zilldevel.json\"。",
         "description": "Backup by day description"
     },
     "clickHereForInfo": {
@@ -1124,16 +1124,16 @@
         "description": "Disabled text"
     },
     "helpPageExtensionsThatConflictWithStgTitle": {
-        "message": "有其他附加元件干擾 STG",
-        "description": "Extensions that conflict with STG"
+        "message": "有其他附加元件干擾 ZTG",
+        "description": "Extensions that conflict with ZTG"
     },
     "helpPageExtensionsThatConflictWithStgDesc1": {
-        "message": "有類似性質的分頁管理(如下)附加元件干擾 STG:",
-        "description": "Simple Tab Groups addon conflicts with the following enabled extensions:"
+        "message": "有類似性質的分頁管理(如下)附加元件干擾 ZTG:",
+        "description": "zilldevel-tabgroups addon conflicts with the following enabled extensions:"
     },
     "helpPageExtensionsThatConflictWithStgDesc2": {
-        "message": "為免遺失所有分頁與群組設定，強烈建議關閉或移除干擾 STG 的其他附加元件，可以到 \"about:addons\" 或按 <code>Ctrl+Shift+A</code> 設定。",
-        "description": "To avoid losing tabs or their location in windows and groups, it is strongly recommended to turn off or remove enabled extensions that conflict with the Simple Tab Groups addon. You can do this on the addons settings page about:addons or by pressing the key combination Ctrl+Shift+A"
+        "message": "為免遺失所有分頁與群組設定，強烈建議關閉或移除干擾 ZTG 的其他附加元件，可以到 \"about:addons\" 或按 <code>Ctrl+Shift+A</code> 設定。",
+        "description": "To avoid losing tabs or their location in windows and groups, it is strongly recommended to turn off or remove enabled extensions that conflict with the zilldevel-tabgroups addon. You can do this on the addons settings page about:addons or by pressing the key combination Ctrl+Shift+A"
     },
     "theme": {
         "message": "主題",
@@ -1172,8 +1172,8 @@
         "description": "Copy URL"
     },
     "helpPageStgDebugTitle": {
-        "message": "STG 除錯頁面",
-        "description": "STG debug page"
+        "message": "ZTG 除錯頁面",
+        "description": "ZTG debug page"
     },
     "helpPageStgDebugAutoDebugMainTitle": {
         "message": "附加元件發生錯誤",

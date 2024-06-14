@@ -96,8 +96,8 @@
         "description": "Show confirmation dialog before archiving the group"
     },
     "exportAddonSettingsTitle": {
-        "message": "Simple Tab Groups yedeği al",
-        "description": "Backup your Simple Tab Groups"
+        "message": "zilldevel-tabgroups yedeği al",
+        "description": "Backup your zilldevel-tabgroups"
     },
     "exportAddonSettingsDescription": {
         "message": "Sekme gruplarınızı bir yedekleme dosyasına aktarın, bu sayede daha sonra geri yükleyebilirsiniz.",
@@ -112,8 +112,8 @@
         "description": "Include tab thumbnails in backup (makes backup file size bigger)"
     },
     "importAddonSettingsTitle": {
-        "message": "Yedek dosyasından Simple Tab Groups geri yükle",
-        "description": "Restore Simple Tab Groups"
+        "message": "Yedek dosyasından zilldevel-tabgroups geri yükle",
+        "description": "Restore zilldevel-tabgroups"
     },
     "importAddonSettingsDescription": {
         "message": "Geri yüklemek istediğiniz sekme gruplarını içeren bir yedekleme dosyası yükleyin.",
@@ -262,7 +262,7 @@
         "description": "Regular expressions"
     },
     "regexpForTabsHelp": {
-        "message": "Web adresleri için kurallı ifadeleri buraya ekleyin. Eşleşen sekmeler otomatik olarak bu gruba taşınacaktır.\nKural başına bir satır kullanın, istediğiniz kadar satır olabilir.\nÖrnekler:\ngithub\\.com/drive4ik/simple-tab-groups - eklentinin deposundaki tüm sayfaları yakala\nbugzilla\\.mozilla\\.org - Firefox hata raporlarını yakala\n(facebook|twitter|youtube)\\.com - tüm sosyal sayfalarınızı yakalayın",
+        "message": "Web adresleri için kurallı ifadeleri buraya ekleyin. Eşleşen sekmeler otomatik olarak bu gruba taşınacaktır.\nKural başına bir satır kullanın, istediğiniz kadar satır olabilir.\nÖrnekler:\ngithub\\.com/zilldevel/firefox-addons-zilldevel-tabgroups - eklentinin deposundaki tüm sayfaları yakala\nbugzilla\\.mozilla\\.org - Firefox hata raporlarını yakala\n(facebook|twitter|youtube)\\.com - tüm sosyal sayfalarınızı yakalayın",
         "description": "Regular exceptions helper"
     },
     "hotkeysTitle": {

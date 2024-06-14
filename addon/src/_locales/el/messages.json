@@ -92,8 +92,8 @@
         "description": "Show confirm dialog before group delete"
     },
     "exportAddonSettingsTitle": {
-        "message": "Αντίγραφο ασφαλείας (backup) των Simple Tab Groups",
-        "description": "Backup your Simple Tab Groups"
+        "message": "Αντίγραφο ασφαλείας (backup) των zilldevel-tabgroups",
+        "description": "Backup your zilldevel-tabgroups"
     },
     "exportAddonSettingsDescription": {
         "message": "Εξαγωγή των tab groups σε αρχείο ασφαλείας για φύλαξη, ώστε να μπορείτε να τα επαναφέρετε αργότερα αν χρειαστεί.",
@@ -108,8 +108,8 @@
         "description": "Include tab thumbnails in backup (makes backup file size bigger)"
     },
     "importAddonSettingsTitle": {
-        "message": "Επαναφορά των Simple Tab Groups (από αντίγραφο ασφαλείας)",
-        "description": "Restore Simple Tab Groups"
+        "message": "Επαναφορά των zilldevel-tabgroups (από αντίγραφο ασφαλείας)",
+        "description": "Restore zilldevel-tabgroups"
     },
     "importAddonSettingsDescription": {
         "message": "Φόρτωμα αντιγράφου ασφαλείας που περιέχει τα tab groups που θέλετε να επαναφέρετε.",
@@ -244,7 +244,7 @@
         "description": "Regular expressions"
     },
     "regexpForTabsHelp": {
-        "message": "Εισάγετε regular expressions για διευθύνσεις web εδώ. Τα tabs που θα βρεθούν θα μετακινηθούν αυτόματα σε αυτό το group.\nΧρησιμοποιείστε μία γραμμή ανά κανόνα, μπορείτε να βάλετε όσους θέλετε.\nΠαραδείγματα:\ngithub\\.com/drive4ik/simple-tab-groups - βρίσκει όλες τις σελίδες στο αποθετήριο του πρόσθετου\nbugzilla\\.mozilla\\.org - βρίσκει αναφορές λαθών του  Firefox\n(facebook|twitter|youtube)\\.com - βρίσκει όλες τις σελίδες σας στα κοινωνικά μέσα",
+        "message": "Εισάγετε regular expressions για διευθύνσεις web εδώ. Τα tabs που θα βρεθούν θα μετακινηθούν αυτόματα σε αυτό το group.\nΧρησιμοποιείστε μία γραμμή ανά κανόνα, μπορείτε να βάλετε όσους θέλετε.\nΠαραδείγματα:\ngithub\\.com/zilldevel/firefox-addons-zilldevel-tabgroups - βρίσκει όλες τις σελίδες στο αποθετήριο του πρόσθετου\nbugzilla\\.mozilla\\.org - βρίσκει αναφορές λαθών του  Firefox\n(facebook|twitter|youtube)\\.com - βρίσκει όλες τις σελίδες σας στα κοινωνικά μέσα",
         "description": "Regular exceptions helper"
     },
     "hotkeysTitle": {
@@ -410,8 +410,8 @@
         }
     },
     "clickHereToReloadAddon": {
-        "message": "Κάτι πήγε στραβά, κλικ εδώ για επαναφόρτωση του STG",
-        "description": "Something went wrong, click here to reload STG addon"
+        "message": "Κάτι πήγε στραβά, κλικ εδώ για επαναφόρτωση του ZTG",
+        "description": "Something went wrong, click here to reload ZTG addon"
     },
     "extendedTabSearch": {
         "message": "Εκτεταμένη αναζήτηση",

@@ -1780,7 +1780,7 @@ async function updateBrowserActionData(groupId, windowId) {
 
     if (group) {
         log.log('group found');
-        await setBrowserAction(windowId, Utils.sliceText(Groups.getTitle(group, 'withContainer'), 43) + ' - STG', Groups.getIconUrl(group), true, group.isSticky); // todo make this args as obj
+        await setBrowserAction(windowId, Utils.sliceText(Groups.getTitle(group, 'withContainer'), 43) + ' - ZTG', Groups.getIconUrl(group), true, group.isSticky); // todo make this args as obj
     } else {
         log.log('group NOT found');
         await setBrowserAction(windowId, undefined, undefined, true);
@@ -2109,7 +2109,7 @@ browser.runtime.onMessageExternal.addListener(async function onMessageExternal(r
         log.stop('background not inited');
         return {
             ok: false,
-            error: `[STG] I'm not loaded yet.`,
+            error: `[ZTG] I'm not loaded yet.`,
         };
     }
 
@@ -2119,7 +2119,7 @@ browser.runtime.onMessageExternal.addListener(async function onMessageExternal(r
         log.stop('sender is not allowed');
         return {
             ok: false,
-            error: '[STG] Your extension/action does not in white list. If you want to add your extension/action to white list - please contact with me.',
+            error: '[ZTG] Your extension/action does not in white list. If you want to add your extension/action to white list - please contact with me.',
             yourExtentionRules: extensionRules,
         };
     }
@@ -2190,7 +2190,7 @@ async function onBackgroundMessage(message, sender) {
     const data = typeof message === 'string' ? { action: message } : message;
 
     if (!data?.action) {
-        result.error = '[STG] invalid "action"';
+        result.error = '[ZTG] invalid "action"';
         logger.error('onBackgroundMessage', result.error, data, senderToLogs);
         return result;
     }
@@ -2690,7 +2690,7 @@ async function onBackgroundMessage(message, sender) {
         }
 
     } catch (e) {
-        result.error = '[STG] ' + String(e);
+        result.error = '[ZTG] ' + String(e);
         log.runError(e.message || e, e);
     }
 

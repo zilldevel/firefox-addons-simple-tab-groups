@@ -30,5 +30,5 @@ if (backgroundSelf) {
             }
         })
         // .catch(() => browser.tabs.create({url: self.location.href}))
-        .catch(console.error.bind(console, 'no STG background page, cant reopen current'));
+        .catch(console.error.bind(console, 'no ZTG background page, cant reopen current'));
 }

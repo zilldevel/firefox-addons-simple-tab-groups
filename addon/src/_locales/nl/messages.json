@@ -104,8 +104,8 @@
         "description": "Show confirmation dialog before archiving the group"
     },
     "exportAddonSettingsTitle": {
-        "message": "Maak reservekopie van Simple Tab Groups",
-        "description": "Backup your Simple Tab Groups"
+        "message": "Maak reservekopie van zilldevel-tabgroups",
+        "description": "Backup your zilldevel-tabgroups"
     },
     "exportAddonSettingsDescription": {
         "message": "Exporteer een reservekopie van je tabgroepen, zodat je deze later kunt herstellen als dat nodig is.",
@@ -120,8 +120,8 @@
         "description": "Include tab thumbnails in backup (makes backup file size bigger)"
     },
     "importAddonSettingsTitle": {
-        "message": "Simple Tab Groups herstellen vanuit reservekopie",
-        "description": "Restore Simple Tab Groups"
+        "message": "zilldevel-tabgroups herstellen vanuit reservekopie",
+        "description": "Restore zilldevel-tabgroups"
     },
     "importAddonSettingsDescription": {
         "message": "Laad een reservekopie van de tabgroepen die je wilt herstellen.",
@@ -270,7 +270,7 @@
         "description": "Regular expressions"
     },
     "regexpForTabsHelp": {
-        "message": "Voer hier reguliere expressies voor webadressen in. Tabbladen die hieraan voldoen zullen automatisch naar deze groep worden verplaatst.\nGebruik één lijn per regel, je kunt er zoveel gebruiken als je wilt.\nVoorbeelden:\ngithub\\.com/drive4ik/simple-tab-groups - vangt alle pagina's in de repository van deze add-on \nbugzilla\\.mozilla\\.org - vangt bugrapporten van Firefox\n(facebook|twitter|youtube)\\.com - vangt al je socialemediapagina's",
+        "message": "Voer hier reguliere expressies voor webadressen in. Tabbladen die hieraan voldoen zullen automatisch naar deze groep worden verplaatst.\nGebruik één lijn per regel, je kunt er zoveel gebruiken als je wilt.\nVoorbeelden:\ngithub\\.com/zilldevel/firefox-addons-zilldevel-tabgroups - vangt alle pagina's in de repository van deze add-on \nbugzilla\\.mozilla\\.org - vangt bugrapporten van Firefox\n(facebook|twitter|youtube)\\.com - vangt al je socialemediapagina's",
         "description": "Regular exceptions helper"
     },
     "hotkeysTitle": {
@@ -504,8 +504,8 @@
         }
     },
     "clickHereToReloadAddon": {
-        "message": "Er ging iets fout, klik hier om de STG add-on opnieuw in te laden",
-        "description": "Something went wrong, click here to reload STG addon"
+        "message": "Er ging iets fout, klik hier om de ZTG add-on opnieuw in te laden",
+        "description": "Something went wrong, click here to reload ZTG addon"
     },
     "extendedTabSearch": {
         "message": "Uitgebreid zoeken",
@@ -818,8 +818,8 @@
         "description": "Delete all addon data and settings before restoring backup"
     },
     "helpPageWelcomeTitle": {
-        "message": "Welkom bij Simple Tab Groups",
-        "description": "Welcome to Simple Tab Groups"
+        "message": "Welkom bij zilldevel-tabgroups",
+        "description": "Welcome to zilldevel-tabgroups"
     },
     "helpPageWelcomeDescription": {
         "message": "Gelieve \"Eerdere vensters en tabbladen openen\" te activeren in de browserinstellingen.<br>Dit is nodig om de communicatie tussen de groep en het tabblad te onderhouden, <br> zoniet zullen de tabbladen niet openen wanneer de browser opstart en zullen deze verloren gaan uit de add-on -<br>de add-on zal stoppen met werken.",
@@ -850,7 +850,7 @@
         "description": "logging was auto-enabled due to an error in addon"
     },
     "loggingDescription": {
-        "message": "Gelieve dit keuzevakje enkel aan te vinken wanneer u bugs wil registreren en logbestanden naar mij wil doorsturen. Dit keuzevakje aanvinken zal tot een merkbare vertraging van de add-on leiden, aangezien alle acties gelogd worden. Vink het keuzevakje uit wanneer u de fout gereproduceerd heeft, en de add-on zal aanbieden het logbestand op te slaan. Deze optie kan vanzelf geactiveerd worden indien een fout optreedt. U moet het keuzevakje DEBUGGEN uitvinken en het logbestand opslaan.<br> Gelieve het logbestand per e-mail naar mij te sturen: <a href=\"mailto:drive4ik+stg@protonmail.com\">drive4ik+stg@protonmail.com</a><br> <span class=\"has-text-danger\">Aandacht! Er worden geen persoonlijke data, wachtwoorden, bladwijzers enz. in dit logbestand opgeslagen!</span><br> Het bestand is nodig om het probleem te reproduceren en dit te proberen oplossen.<br> Vriendelijke groeten",
+        "message": "Gelieve dit keuzevakje enkel aan te vinken wanneer u bugs wil registreren en logbestanden naar mij wil doorsturen. Dit keuzevakje aanvinken zal tot een merkbare vertraging van de add-on leiden, aangezien alle acties gelogd worden. Vink het keuzevakje uit wanneer u de fout gereproduceerd heeft, en de add-on zal aanbieden het logbestand op te slaan. Deze optie kan vanzelf geactiveerd worden indien een fout optreedt. U moet het keuzevakje DEBUGGEN uitvinken en het logbestand opslaan.<br> Gelieve het logbestand per e-mail naar mij te sturen: <a href=\"mailto:zilldevel+tabgroupsaddon@proton.me\">zilldevel+tabgroupsaddon@proton.me</a><br> <span class=\"has-text-danger\">Aandacht! Er worden geen persoonlijke data, wachtwoorden, bladwijzers enz. in dit logbestand opgeslagen!</span><br> Het bestand is nodig om het probleem te reproduceren en dit te proberen oplossen.<br> Vriendelijke groeten",
         "description": "logging description"
     },
     "archiveGroup": {
@@ -1064,12 +1064,12 @@
         "description": "Show archived groups"
     },
     "helpPageDbErrorReinstallTitle": {
-        "message": "Databankfout in Simple Tab Groups",
-        "description": "Database error in Simple Tab Groups"
+        "message": "Databankfout in zilldevel-tabgroups",
+        "description": "Database error in zilldevel-tabgroups"
     },
     "helpPageDbErrorReinstallDescription": {
-        "message": "Helaas heeft zich een fout voorgedaan bij het lezen van data van de STG add-on uit de Firefox-databank. Op dit moment is de add-on gestopt. Om de add-on te herstarten, doe het volgende:",
-        "description": "Unfortunately, an error occurred while reading data from the STG addon from the Firefox database. At the moment, the addon is stopped. To resume the add-on, do the following:"
+        "message": "Helaas heeft zich een fout voorgedaan bij het lezen van data van de ZTG add-on uit de Firefox-databank. Op dit moment is de add-on gestopt. Om de add-on te herstarten, doe het volgende:",
+        "description": "Unfortunately, an error occurred while reading data from the ZTG addon from the Firefox database. At the moment, the addon is stopped. To resume the add-on, do the following:"
     },
     "helpPageDbErrorReinstallDescription2": {
         "message": "Herstart Firefox Browser (bij Linux en Mac OS met procesbeëindiging)",
@@ -1080,20 +1080,20 @@
         "description": "If you see this window again, try reinstalling the addon:"
     },
     "helpPageDbErrorReinstallDescription4": {
-        "message": "Verwijder de STG add-on",
-        "description": "Remove STG Addon"
+        "message": "Verwijder de ZTG add-on",
+        "description": "Remove ZTG Addon"
     },
     "helpPageDbErrorReinstallDescription5": {
         "message": "Herstart Firefox Browser",
         "description": "Restart Firefox Browser"
     },
     "helpPageDbErrorReinstallDescription6": {
-        "message": "Installeer de STG add-on",
-        "description": "Install STG Addon"
+        "message": "Installeer de ZTG add-on",
+        "description": "Install ZTG Addon"
     },
     "helpPageDbErrorReinstallDescription7": {
-        "message": "Herstel de laatste STG add-on reservekopie, die te vinden is in de Firefox downloadmap \"STG-backups\".<br>U kan de reservekopie herstellen via de instellingen van de add-on",
-        "description": "Restore the latest STG addon data backup located in the Firefox downloads folder \"STG-backups\".<br>You can restore backup in addon settings"
+        "message": "Herstel de laatste ZTG add-on reservekopie, die te vinden is in de Firefox downloadmap \"ZTG-backups\".<br>U kan de reservekopie herstellen via de instellingen van de add-on",
+        "description": "Restore the latest ZTG addon data backup located in the Firefox downloads folder \"ZTG-backups\".<br>You can restore backup in addon settings"
     },
     "helpPageDbErrorReinstallOpenFFDownloadsFolder": {
         "message": "Open de Firefox downloadmap",
@@ -1112,7 +1112,7 @@
         "description": "Backup number as day of month"
     },
     "autoBackupByDayIndexDescription": {
-        "message": "Dit helpt om verlost te zijn van een groot aantal reservekopiebestanden in de downloadmap. Het reservekopiebestand zal er zo uitzien: \"auto-stg-backup-dag-van-maand-22@drive4ik.json\"",
+        "message": "Dit helpt om verlost te zijn van een groot aantal reservekopiebestanden in de downloadmap. Het reservekopiebestand zal er zo uitzien: \"auto-ztg-backup-dag-van-maand-22@zilldevel.json\"",
         "description": "Backup by day description"
     },
     "clickHereForInfo": {
@@ -1128,16 +1128,16 @@
         "description": "Disabled text"
     },
     "helpPageExtensionsThatConflictWithStgTitle": {
-        "message": "Extensies die conflicteren met STG",
-        "description": "Extensions that conflict with STG"
+        "message": "Extensies die conflicteren met ZTG",
+        "description": "Extensions that conflict with ZTG"
     },
     "helpPageExtensionsThatConflictWithStgDesc1": {
-        "message": "Simple Tab Groups add-on conflicteert met de volgende ingeschakelde extensies:",
-        "description": "Simple Tab Groups addon conflicts with the following enabled extensions:"
+        "message": "zilldevel-tabgroups add-on conflicteert met de volgende ingeschakelde extensies:",
+        "description": "zilldevel-tabgroups addon conflicts with the following enabled extensions:"
     },
     "helpPageExtensionsThatConflictWithStgDesc2": {
-        "message": "Om het verlies van tabs of hun locatie in vensters en groepen te vermijden, wordt sterk aanbevolen om ingeschakelde extensies die conflicteren met de Simple Tab Groups add-on uit te schakelen of te verwijderen. U kan dit doen via de instellingenpagina voor add-ons \"about:addons\" of door op de toetsencombinatie <code>Ctrl+Shift+A</code> te drukken",
-        "description": "To avoid losing tabs or their location in windows and groups, it is strongly recommended to turn off or remove enabled extensions that conflict with the Simple Tab Groups addon. You can do this on the addons settings page about:addons or by pressing the key combination Ctrl+Shift+A"
+        "message": "Om het verlies van tabs of hun locatie in vensters en groepen te vermijden, wordt sterk aanbevolen om ingeschakelde extensies die conflicteren met de zilldevel-tabgroups add-on uit te schakelen of te verwijderen. U kan dit doen via de instellingenpagina voor add-ons \"about:addons\" of door op de toetsencombinatie <code>Ctrl+Shift+A</code> te drukken",
+        "description": "To avoid losing tabs or their location in windows and groups, it is strongly recommended to turn off or remove enabled extensions that conflict with the zilldevel-tabgroups addon. You can do this on the addons settings page about:addons or by pressing the key combination Ctrl+Shift+A"
     },
     "ignoreConflictedExtIgnore": {
         "message": "Deze extensie negeren",
@@ -1152,8 +1152,8 @@
         "description": "Extension is ignored"
     },
     "ignoreConflictedExtConfirm": {
-        "message": "Deze add-on zal interfereren met STG, waardoor u tabbladen kan verliezen.\nWilt u deze nog steeds negeren?",
-        "description": "This addon will interfere with the STG, which may cause you to lose tabs.\nStill ignore it?"
+        "message": "Deze add-on zal interfereren met ZTG, waardoor u tabbladen kan verliezen.\nWilt u deze nog steeds negeren?",
+        "description": "This addon will interfere with the ZTG, which may cause you to lose tabs.\nStill ignore it?"
     },
     "theme": {
         "message": "Thema",
@@ -1192,8 +1192,8 @@
         "description": "Copy URL"
     },
     "helpPageStgDebugTitle": {
-        "message": "STG debugpagina",
-        "description": "STG debug page"
+        "message": "ZTG debugpagina",
+        "description": "ZTG debug page"
     },
     "helpPageStgDebugAutoDebugMainTitle": {
         "message": "Er trad een fout op in de add-on",

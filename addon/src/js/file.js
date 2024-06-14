@@ -153,11 +153,11 @@ export async function getAutoBackupFolderName() {
 
     if (
         !autoBackupFolderName.length ||
-        /^STG\-backups\-FF\-[a-z\d\.]+$/.test(autoBackupFolderName) ||
-        /^STG\-backups\-(win|linux|mac|openbsd)\-\d+$/.test(autoBackupFolderName)
+        /^ZTG\-backups\-FF\-[a-z\d\.]+$/.test(autoBackupFolderName) ||
+        /^ZTG\-backups\-(win|linux|mac|openbsd)\-\d+$/.test(autoBackupFolderName)
     ) {
         let {version} = await browser.runtime.getBrowserInfo(),
-            newAutoBackupFolderName = `STG-backups-FF-${version}`;
+            newAutoBackupFolderName = `ZTG-backups-FF-${version}`;
 
         if (autoBackupFolderName !== newAutoBackupFolderName) {
             autoBackupFolderName = newAutoBackupFolderName;
@@ -177,7 +177,7 @@ function generateBackupFileName(isAutoBackup, byDayIndex = false) {
         type = isAutoBackup ? 'auto' : 'manual',
         dateOrDayIndex = (isAutoBackup && byDayIndex) ? `day-of-month-${day}` : `${year}-${month}-${day}`;
 
-    return `${type}-stg-backup-${dateOrDayIndex}@zilldevel.json`;
+    return `${type}-ztg-backup-${dateOrDayIndex}@zilldevel.json`;
 }
 
 function _intToStr(i) {

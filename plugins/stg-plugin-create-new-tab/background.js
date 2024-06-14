@@ -6,7 +6,7 @@ const TEMPORARY_CONTAINER = 'temporary-container';
 
 browser.runtime.onMessageExternal.addListener((request, sender) => {
     if (sender.id !== Constants.STG_ID) {
-        console.error(`Only STG support`);
+        console.error(`Only ZTG support`);
         return;
     }
 

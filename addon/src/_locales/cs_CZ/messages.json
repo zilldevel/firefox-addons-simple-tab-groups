@@ -92,8 +92,8 @@
         "description": "Show confirm dialog before group delete"
     },
     "exportAddonSettingsTitle": {
-        "message": "Zálohovat Simple Tab Groups",
-        "description": "Backup your Simple Tab Groups"
+        "message": "Zálohovat zilldevel-tabgroups",
+        "description": "Backup your zilldevel-tabgroups"
     },
     "exportAddonSettingsDescription": {
         "message": "Exportovat vaše skupiny panelů do záložního souboru, aby je bylo možno v případě nutnosti obnovit.",
@@ -108,8 +108,8 @@
         "description": "Include tab thumbnails in backup (makes backup file size bigger)"
     },
     "importAddonSettingsTitle": {
-        "message": "Obnovit Simple Tab Groups",
-        "description": "Restore Simple Tab Groups"
+        "message": "Obnovit zilldevel-tabgroups",
+        "description": "Restore zilldevel-tabgroups"
     },
     "importAddonSettingsDescription": {
         "message": "Načíst záložní soubor obsahující skupiny panelů, které chcete obnovit.",
@@ -258,7 +258,7 @@
         "description": "Regular expressions"
     },
     "regexpForTabsHelp": {
-        "message": "Sem vložte pravidlo pro webové adresy. Při splnění pravidla bude panel automaticky přesunut do této skupiny.\nPoužijte jeden řádek pro jedno pravidlo. Může jich být, kolik chcete.\nPříklad:\ngithub\\.com/drive4ik/simple-tab-groups - přesune všechny stránky repozitáře doplňku\nbugzilla\\.mozilla\\.org - zachytí hlášení o chybách Firefoxu\n(facebook|twitter|youtube)\\.com - Přesune stránky sociálních sítí",
+        "message": "Sem vložte pravidlo pro webové adresy. Při splnění pravidla bude panel automaticky přesunut do této skupiny.\nPoužijte jeden řádek pro jedno pravidlo. Může jich být, kolik chcete.\nPříklad:\ngithub\\.com/zilldevel/firefox-addons-zilldevel-tabgroups - přesune všechny stránky repozitáře doplňku\nbugzilla\\.mozilla\\.org - zachytí hlášení o chybách Firefoxu\n(facebook|twitter|youtube)\\.com - Přesune stránky sociálních sítí",
         "description": "Regular exceptions helper"
     },
     "hotkeysTitle": {
@@ -464,8 +464,8 @@
         }
     },
     "clickHereToReloadAddon": {
-        "message": "Něco se pokazilo. Klikněte sem pro opětovné načtení STG doplňku.",
-        "description": "Something went wrong, click here to reload STG addon"
+        "message": "Něco se pokazilo. Klikněte sem pro opětovné načtení ZTG doplňku.",
+        "description": "Something went wrong, click here to reload ZTG addon"
     },
     "extendedTabSearch": {
         "message": "Rozšířené vyhledávání",
@@ -774,8 +774,8 @@
         "description": "Delete all addon data and settings before restoring backup"
     },
     "helpPageWelcomeTitle": {
-        "message": "Vítejte v Simple Tab Groups",
-        "description": "Welcome to Simple Tab Groups"
+        "message": "Vítejte v zilldevel-tabgroups",
+        "description": "Welcome to zilldevel-tabgroups"
     },
     "helpPageWelcomeDescription": {
         "message": "V nastavení prohlížeče povolte prosím možnost \"Otevřít panely z minula\".\n<br>Je to nutné pro udržení komunikace mezi panely a skupinami, <br>v opačném případě nebudou panely při příštím spuštění prohlížeče obnoveny a spárovány s doplňkem -<br>doplněk přestane pracovat",
@@ -798,7 +798,7 @@
         "description": "logging was auto-enabled due to an error in addon"
     },
     "loggingDescription": {
-        "message": "Tuto možnost povolte pouze v případě, že chcete zaznamenat chybu doplňku a chybový protokol mi poslat. Zapnutím této funkce dojde k výraznému zpomalení doplňku z důvodu zaznamenávání všech jeho akcí. Po zachycení chyby tuto možnost opět vypněte a bude vám nabídnuta možnost uložení protokolu. Možnost ladění může být zapnuta i automaticky, a to v případě, že se detekovala chyba. Poté je nutné tuto možnost vypnout a následně uložit protokol.<br> Protokol prosím pošlete na email: <a href=\"mailto:drive4ik+stg@protonmail.com\">drive4ik+stg@protonmail.com</a><br> <span class=\"has-text-danger\">V tomto protokolu nejsou odesílána žádná osobní data, hesla, záložky ani jiné podobné položky!</span><br> Tento protokol je nutný pro reprodukci problému a jeho následné vyřešení.<br> Děkuji",
+        "message": "Tuto možnost povolte pouze v případě, že chcete zaznamenat chybu doplňku a chybový protokol mi poslat. Zapnutím této funkce dojde k výraznému zpomalení doplňku z důvodu zaznamenávání všech jeho akcí. Po zachycení chyby tuto možnost opět vypněte a bude vám nabídnuta možnost uložení protokolu. Možnost ladění může být zapnuta i automaticky, a to v případě, že se detekovala chyba. Poté je nutné tuto možnost vypnout a následně uložit protokol.<br> Protokol prosím pošlete na email: <a href=\"mailto:zilldevel+tabgroupsaddon@proton.me\">zilldevel+tabgroupsaddon@proton.me</a><br> <span class=\"has-text-danger\">V tomto protokolu nejsou odesílána žádná osobní data, hesla, záložky ani jiné podobné položky!</span><br> Tento protokol je nutný pro reprodukci problému a jeho následné vyřešení.<br> Děkuji",
         "description": "logging description"
     },
     "archiveGroup": {
@@ -988,12 +988,12 @@
         "description": "Show archived groups"
     },
     "helpPageDbErrorReinstallTitle": {
-        "message": "Chyba databáze doplňku Simple Tab Groups",
-        "description": "Database error in Simple Tab Groups"
+        "message": "Chyba databáze doplňku zilldevel-tabgroups",
+        "description": "Database error in zilldevel-tabgroups"
     },
     "helpPageDbErrorReinstallDescription": {
         "message": "Při čtení dat doplňku z databáze Firefoxu bohužel nastala chyba. Doplněk přestal pracovat. Pro obnovení postupujte dle následujících instrukcí:",
-        "description": "Unfortunately, an error occurred while reading data from the STG addon from the Firefox database. At the moment, the addon is stopped. To resume the add-on, do the following:"
+        "description": "Unfortunately, an error occurred while reading data from the ZTG addon from the Firefox database. At the moment, the addon is stopped. To resume the add-on, do the following:"
     },
     "helpPageDbErrorReinstallDescription2": {
         "message": "Restartujte Firefox (s ukončením procesu v případě Linuxu nebo Mac OS)",
@@ -1005,7 +1005,7 @@
     },
     "helpPageDbErrorReinstallDescription4": {
         "message": "Odstraňte doplněk",
-        "description": "Remove STG Addon"
+        "description": "Remove ZTG Addon"
     },
     "helpPageDbErrorReinstallDescription5": {
         "message": "Restartujte Firefox",
@@ -1013,11 +1013,11 @@
     },
     "helpPageDbErrorReinstallDescription6": {
         "message": "Nainstalujte doplněk",
-        "description": "Install STG Addon"
+        "description": "Install ZTG Addon"
     },
     "helpPageDbErrorReinstallDescription7": {
-        "message": "Obnovte poslední zálohu doplňku, která se nachází mezi staženými soubory ve složce \"STG-backups.\"<br>Zálohu je možné obnovit v nastavení doplňku.",
-        "description": "Restore the latest STG addon data backup located in the Firefox downloads folder \"STG-backups\".<br>You can restore backup in addon settings"
+        "message": "Obnovte poslední zálohu doplňku, která se nachází mezi staženými soubory ve složce \"ZTG-backups.\"<br>Zálohu je možné obnovit v nastavení doplňku.",
+        "description": "Restore the latest ZTG addon data backup located in the Firefox downloads folder \"ZTG-backups\".<br>You can restore backup in addon settings"
     },
     "helpPageDbErrorReinstallOpenFFDownloadsFolder": {
         "message": "Otevřete složku stažených souborů",

@@ -96,8 +96,8 @@
         "description": "Show confirmation dialog before archiving the group"
     },
     "exportAddonSettingsTitle": {
-        "message": "Resguardar tus Simple Tab Groups",
-        "description": "Backup your Simple Tab Groups"
+        "message": "Resguardar tus zilldevel-tabgroups",
+        "description": "Backup your zilldevel-tabgroups"
     },
     "exportAddonSettingsDescription": {
         "message": "Exportar tus grupos de pestañas en un archivo de resguardo para mantenerlo seguro, para que puedas restaurarlos en otro momento si es necesario.",
@@ -112,8 +112,8 @@
         "description": "Include tab thumbnails in backup (makes backup file size bigger)"
     },
     "importAddonSettingsTitle": {
-        "message": "Restaurar Simple Tabs Groups",
-        "description": "Restore Simple Tab Groups"
+        "message": "Restaurar zilldevel-tabgroups",
+        "description": "Restore zilldevel-tabgroups"
     },
     "importAddonSettingsDescription": {
         "message": "Cargar el grupo de pestañas desde un archivo de resguardo que quieras restaurar.",
@@ -262,7 +262,7 @@
         "description": "Regular expressions"
     },
     "regexpForTabsHelp": {
-        "message": "Insertá expresiones regulares para direcciones web acá. Las pestañas encontradas seran movidas automaticamente de este grupo. \nUsá solo una linea por regla, puede haber tantas como quieras.\nEjemplos:\ngithub\\.com/drive4ik/simple-tab-groups - devuelve todas las paginas del repositorio del addon \nbugzilla\\.mozilla\\.org - devuelve el reporte de errores (bugs) de Firefox\n(facebook|twitter|youtube)\\.com - devuelve todas tus redes sociales",
+        "message": "Insertá expresiones regulares para direcciones web acá. Las pestañas encontradas seran movidas automaticamente de este grupo. \nUsá solo una linea por regla, puede haber tantas como quieras.\nEjemplos:\ngithub\\.com/zilldevel/firefox-addons-zilldevel-tabgroups - devuelve todas las paginas del repositorio del addon \nbugzilla\\.mozilla\\.org - devuelve el reporte de errores (bugs) de Firefox\n(facebook|twitter|youtube)\\.com - devuelve todas tus redes sociales",
         "description": "Regular exceptions helper"
     },
     "hotkeysTitle": {
@@ -480,8 +480,8 @@
         }
     },
     "clickHereToReloadAddon": {
-        "message": "Algo salió mal, hacé clic acá para recargar STG",
-        "description": "Something went wrong, click here to reload STG addon"
+        "message": "Algo salió mal, hacé clic acá para recargar ZTG",
+        "description": "Something went wrong, click here to reload ZTG addon"
     },
     "extendedTabSearch": {
         "message": "Búsqueda extendida",
@@ -794,8 +794,8 @@
         "description": "Delete all addon data and settings before restoring backup"
     },
     "helpPageWelcomeTitle": {
-        "message": "Bienvenido/a a Simple Tab Groups",
-        "description": "Welcome to Simple Tab Groups"
+        "message": "Bienvenido/a a zilldevel-tabgroups",
+        "description": "Welcome to zilldevel-tabgroups"
     },
     "helpPageWelcomeDescription": {
         "message": "Por favor activá \"Restaurar sesión previa\" en los ajustes del navegadr.<br>Esto es necesario para mantener la comunicación entre el grupo y la pestaña, <br>sino las pestañas no se abrirían cuando el navegador inicia y se perderían en la extensión -<br>la extensión dejará de funcionar.",
@@ -818,7 +818,7 @@
         "description": "logging was auto-enabled due to an error in addon"
     },
     "loggingDescription": {
-        "message": "Por favor habilitá ésta casilla de verificación solo si necesitas registrar el error y enviarme registros. Habilitar esto provocará una desaceleración notable de la extensión, ya que se registran todas las acciones del mismo. Cuando reproduzcas el error, desactivá esta casilla de verificación y la extensión ofrecerá guardar el archivo de registro. Esta opción se puede habilitar por sí sola si ocurre un error. Tenés que deseleccionar la casilla de verificación DEPURACION y guardar el archivo de registro.<br> Por favor enviame el archivo de registro por email: <a href=\"mailto:drive4ik+stg@protonmail.com\">drive4ik+stg@protonmail.com</a><br> <span class=\"has-text-danger\">Atención! No hay datos personales, contraseñas, marcadores, etc. en este archivo de registro!</span><br> Esto es necesario para poder reproducir el problema e intentar solucionarlo.<br> Atentamente",
+        "message": "Por favor habilitá ésta casilla de verificación solo si necesitas registrar el error y enviarme registros. Habilitar esto provocará una desaceleración notable de la extensión, ya que se registran todas las acciones del mismo. Cuando reproduzcas el error, desactivá esta casilla de verificación y la extensión ofrecerá guardar el archivo de registro. Esta opción se puede habilitar por sí sola si ocurre un error. Tenés que deseleccionar la casilla de verificación DEPURACION y guardar el archivo de registro.<br> Por favor enviame el archivo de registro por email: <a href=\"mailto:zilldevel+tabgroupsaddon@proton.me\">zilldevel+tabgroupsaddon@proton.me</a><br> <span class=\"has-text-danger\">Atención! No hay datos personales, contraseñas, marcadores, etc. en este archivo de registro!</span><br> Esto es necesario para poder reproducir el problema e intentar solucionarlo.<br> Atentamente",
         "description": "logging description"
     },
     "archiveGroup": {
@@ -1032,12 +1032,12 @@
         "description": "Show archived groups"
     },
     "helpPageDbErrorReinstallTitle": {
-        "message": "Error de base de datos en Simple Tab Groups",
-        "description": "Database error in Simple Tab Groups"
+        "message": "Error de base de datos en zilldevel-tabgroups",
+        "description": "Database error in zilldevel-tabgroups"
     },
     "helpPageDbErrorReinstallDescription": {
-        "message": "Desafortunadamente, ocurrió un error mientras se leía la base de datos de la extensión STG de Firefox. De momento, la extensión está detenida. Para reanudar la extensión, hacé lo siguiente:",
-        "description": "Unfortunately, an error occurred while reading data from the STG addon from the Firefox database. At the moment, the addon is stopped. To resume the add-on, do the following:"
+        "message": "Desafortunadamente, ocurrió un error mientras se leía la base de datos de la extensión ZTG de Firefox. De momento, la extensión está detenida. Para reanudar la extensión, hacé lo siguiente:",
+        "description": "Unfortunately, an error occurred while reading data from the ZTG addon from the Firefox database. At the moment, the addon is stopped. To resume the add-on, do the following:"
     },
     "helpPageDbErrorReinstallDescription2": {
         "message": "Reiniciar Firefox",
@@ -1048,20 +1048,20 @@
         "description": "If you see this window again, try reinstalling the addon:"
     },
     "helpPageDbErrorReinstallDescription4": {
-        "message": "Remover extensión STG",
-        "description": "Remove STG Addon"
+        "message": "Remover extensión ZTG",
+        "description": "Remove ZTG Addon"
     },
     "helpPageDbErrorReinstallDescription5": {
         "message": "Reiniciar Firefox",
         "description": "Restart Firefox Browser"
     },
     "helpPageDbErrorReinstallDescription6": {
-        "message": "Instalar extensión STG",
-        "description": "Install STG Addon"
+        "message": "Instalar extensión ZTG",
+        "description": "Install ZTG Addon"
     },
     "helpPageDbErrorReinstallDescription7": {
-        "message": "Restablecer el respaldo más reciente de la carpeta de la extensión STG ubicada en la carpeta de descargas de Firefox \"STG-backups\".<br>Podés restablecer el respaldo en los ajustes de la extensión",
-        "description": "Restore the latest STG addon data backup located in the Firefox downloads folder \"STG-backups\".<br>You can restore backup in addon settings"
+        "message": "Restablecer el respaldo más reciente de la carpeta de la extensión ZTG ubicada en la carpeta de descargas de Firefox \"ZTG-backups\".<br>Podés restablecer el respaldo en los ajustes de la extensión",
+        "description": "Restore the latest ZTG addon data backup located in the Firefox downloads folder \"ZTG-backups\".<br>You can restore backup in addon settings"
     },
     "helpPageDbErrorReinstallOpenFFDownloadsFolder": {
         "message": "Abrir carpeta de descargas de Firefox",
@@ -1080,7 +1080,7 @@
         "description": "Backup number as day of month"
     },
     "autoBackupByDayIndexDescription": {
-        "message": "Ayuda a deshacerse de un gran número de archivos de respaldo en la carpeta de descargas. El archivo de respaldo se vera así: \"auto-stg-backup-day-of-month-22@drive4ik.json\"",
+        "message": "Ayuda a deshacerse de un gran número de archivos de respaldo en la carpeta de descargas. El archivo de respaldo se vera así: \"auto-ztg-backup-day-of-month-22@zilldevel.json\"",
         "description": "Backup by day description"
     },
     "clickHereForInfo": {
@@ -1096,16 +1096,16 @@
         "description": "Disabled text"
     },
     "helpPageExtensionsThatConflictWithStgTitle": {
-        "message": "Extensiones que no son compatibles con STG",
-        "description": "Extensions that conflict with STG"
+        "message": "Extensiones que no son compatibles con ZTG",
+        "description": "Extensions that conflict with ZTG"
     },
     "helpPageExtensionsThatConflictWithStgDesc1": {
-        "message": "La extensión Simple Tab Groups es incompatible con las siguientes extensiones activadas:",
-        "description": "Simple Tab Groups addon conflicts with the following enabled extensions:"
+        "message": "La extensión zilldevel-tabgroups es incompatible con las siguientes extensiones activadas:",
+        "description": "zilldevel-tabgroups addon conflicts with the following enabled extensions:"
     },
     "helpPageExtensionsThatConflictWithStgDesc2": {
-        "message": "Para evitar perder pestañas o su ubicación en ventanas y grupos, se recomienda desactivar o borrar las extensiones activadas que sean incompatibles con Simple Tab Groups. Puede hacerlo en la página de configuración de extensiones \"about:addons\" o presionando la combinación de teclas <code>Ctrl+Shift+A</code>",
-        "description": "To avoid losing tabs or their location in windows and groups, it is strongly recommended to turn off or remove enabled extensions that conflict with the Simple Tab Groups addon. You can do this on the addons settings page about:addons or by pressing the key combination Ctrl+Shift+A"
+        "message": "Para evitar perder pestañas o su ubicación en ventanas y grupos, se recomienda desactivar o borrar las extensiones activadas que sean incompatibles con zilldevel-tabgroups. Puede hacerlo en la página de configuración de extensiones \"about:addons\" o presionando la combinación de teclas <code>Ctrl+Shift+A</code>",
+        "description": "To avoid losing tabs or their location in windows and groups, it is strongly recommended to turn off or remove enabled extensions that conflict with the zilldevel-tabgroups addon. You can do this on the addons settings page about:addons or by pressing the key combination Ctrl+Shift+A"
     },
     "theme": {
         "message": "Tema",

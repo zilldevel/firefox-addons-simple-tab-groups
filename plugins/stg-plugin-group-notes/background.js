@@ -4,7 +4,7 @@ import * as MainUtils from './main-utils.js';
 
 browser.runtime.onMessageExternal.addListener(async (request, sender) => {
     if (sender.id !== Constants.STG_ID) {
-        console.error(`Only STG support`);
+        console.error(`Only ZTG support`);
         return;
     }
 

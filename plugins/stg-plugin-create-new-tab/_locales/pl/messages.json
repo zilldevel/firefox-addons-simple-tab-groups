@@ -1,11 +1,11 @@
 {
     "extensionDescription": {
-        "message": "Utwórz nową zakładkę w kontenerze na podstawie grupy w rozszerzeniu Simple Tab Groups v4.4",
+        "message": "Utwórz nową zakładkę w kontenerze na podstawie grupy w rozszerzeniu zilldevel-tabgroups v4.4",
         "description": "Extension description"
     },
     "needInstallSTGExtension": {
-        "message": "Zainstaluj dodatek Simple Tab Groups\nNaciśnij tu aby przejść do strony domowej Simple Tab Groups",
-        "description": "Need install Simple Tab Groups extention or change container in addon settings\nClick here to open Simple Tab Groups home page"
+        "message": "Zainstaluj dodatek zilldevel-tabgroups\nNaciśnij tu aby przejść do strony domowej zilldevel-tabgroups",
+        "description": "Need install zilldevel-tabgroups extention or change container in addon settings\nClick here to open zilldevel-tabgroups home page"
     },
     "newTabTitle": {
         "message": "Otwórz nową zakładkę",

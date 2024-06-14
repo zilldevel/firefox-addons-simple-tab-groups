@@ -1,11 +1,11 @@
 {
     "extensionDescription": {
-        "message": "Создание новой группы в расширении Simple Tab Groups",
+        "message": "Создание новой группы в расширении zilldevel-tabgroups",
         "description": "Extension description"
     },
     "needInstallSTGExtension": {
-        "message": "Для работы этого плагина нужно установить расширение Simple Tab Groups\nНажмите здесь чтобы открыть домашнюю страницу Simple Tab Groups",
-        "description": "Need install Simple Tab Groups extention\nClick here to open home page Simple Tab Groups"
+        "message": "Для работы этого плагина нужно установить расширение zilldevel-tabgroups\nНажмите здесь чтобы открыть домашнюю страницу zilldevel-tabgroups",
+        "description": "Need install zilldevel-tabgroups extention\nClick here to open home page zilldevel-tabgroups"
     },
     "createNewGroupTitle": {
         "message": "Создать новую группу",
