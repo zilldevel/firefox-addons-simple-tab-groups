@@ -75,6 +75,26 @@ On Fedora Linux, I use the following to build:
     $ cd addons
     $ npm install && npm run build && npm run build-zip
 
+This will generate an unsigned addon as a zip file under `./addon/dist` (e.g. `<name>-v<version>-prod.zip`)
+
+### creating a private signed xpi
+
+Firefox stable build does not allow installing unsigned addons. Assuming that you have npm setup and are able to make clean builds, you have an AMO developer account, and have created a key from the [AMO Developer Hub](https://addons.mozilla.org/en-US/developers/addon/api/key/), then you can follow the steps for [getting started with web-ext](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext) to make sure `web-ext` is installed (e.g. `npm install --global web-ext` and make sure your `~/node_modules/.bin` is added to your `PATH` variable).
+
+Then you should be able to create a signed xpi that can be installed manually by:
+
+    $ AMO_JWT_ISSUER='<your JWT issuer value>'
+    $ AMO_JWT_SECRET='<your JWT secret value>'
+    $ cd addons
+    $ npm install && npm run build
+    $ cd dist
+    $ web-ext lint
+    $ web-ext build
+    $ web-ext sign -v --channel unlisted --api-key "${AMO_JWT_ISSUER}" --api-secret "${AMO_JWT_SECRET}"
+    $ cd web-ext-artifacts
+
+For me the `web-ext sign ...` command took just shy of 5 minutes to run (over openvpn). Your mileage may vary.
+
 
 ## Description
 
